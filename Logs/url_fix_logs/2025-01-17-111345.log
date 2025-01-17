@@ -1,0 +1,12 @@
+2025-01-17 11:13:45,441 - INFO - Script started.
+2025-01-17 11:13:46,541 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-01-17 11:13:46,804 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-01-17 11:13:47,041 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-01-17 11:13:47,174 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1"}}
+2025-01-17 11:13:47,175 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-17 11:13:47,312 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/1"}}
+2025-01-17 11:13:47,312 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-17 11:13:47,313 - ERROR - GET_SHEET_OR_REPORT NONE Error: {"result": {"code": 1006, "errorCode": 1006, "message": "Not Found", "name": "ApiError", "recommendation": "Do not retry without fixing the problem. ", "refId": "a7c6o6", "shouldRetry": false, "statusCode": 404}}
+2025-01-17 11:13:49,796 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/6375545637916548/rows"}}
+2025-01-17 11:13:51,171 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/6375545637916548/rows"}}
+2025-01-17 11:13:51,174 - INFO - Script executed successfully.

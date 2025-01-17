@@ -1,8 +1,9 @@
-# Smartsheet Automation Script
+# Smartsheet URL Fix Script
 
-This script automates the processing and updating of rows in Smartsheet. It uses the Smartsheet API to fetch data, update rows, and manage permalinks efficiently. 
+This script automates the processing and updating of permalinks in Smartsheet. It uses the Smartsheet API to fetch data, update rows, and manage permalinks efficiently. 
 
 ## Features
+- Aquires permalinks from a list of sheets or reports and writes it to specified column.
 - Fetches columns and rows from Smartsheet sheets or reports.
 - Processes and updates row data based on specific logic.
 - Supports bulk updates for improved performance.
@@ -14,17 +15,15 @@ This script automates the processing and updating of rows in Smartsheet. It uses
    Install the SDK using pip:
    ```bash
    pip install smartsheet-python-sdk
-3. **API Token:**: Obtain your Smartsheet API token and set it as an environment variable:
+3. **API Token:** Obtain your Smartsheet API token and set it as an environment variable:
     ```bash
     export Justin_API_Key=<your_api_token>
 4. **Smartsheet Access:** Ensure you have the necessary permissions to access and modify the sheets.:
 
 ## Setup
 1. Clone or download this repository.
-2. install the required dependencies:
-    ```bash
-    pip install -r requirements.txt:
-3. Set your API Token in the environment
+
+2. Set your API Token in the environment
     ```bash
     export Justin_API_Key=<your_api_token>
 
@@ -85,10 +84,9 @@ The script includes several functions for interacting with Smartsheet. Below are
 
 ## Example Execution
 To update rows for a given source sheet, call the `update_rows` function with the sheet ID:
-
-    ```bash
-    update_rows(123123123123)
-    ```
+```bash
+update_rows(123123123123)
+```
 
 ## Error Handeling
 - The script uses try-except blocks to handle API and processing errors.
@@ -96,3 +94,10 @@ To update rows for a given source sheet, call the `update_rows` function with th
 
 ## Logging
 Logs are generated to provide information about processing, errors, and status updates. Customize the logging configuration as needed. Logs are stored in the Logs directory format (Year-month-day-hourrminutsecond)
+
+## Statuses
+- **Done** - Sheet completed and updated the list of sheets/reports with the correct permalinks
+- **Error Processing** - There were one or more sheets/reports in the list that could not be found. (permalink will be blank)
+- **Wrong Id_source** - The column name in the `Id_source` column was not found on the destination sheet 
+- **Wrong url_target_column** - The column name in the `url_target_column` was not found on the destination sheet
+- **Sheet or Report Not Found** - The Sheet ID in the `Sheet ID` column was not found.

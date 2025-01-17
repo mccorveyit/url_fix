@@ -161,6 +161,7 @@ def process_src_sheet(src_sheet, columns, statuses, responses, permalinks):
         else:
             status = "Error Processing"
         update_status(src_row_id, status, columns)
+        update_row(dest_sheet=src_sheet, row_values={"Request": False}, dest_sheet_map=columns, row_id=src_row_id)
 
         # Update the status and permalinks if any
         if permalinks:
