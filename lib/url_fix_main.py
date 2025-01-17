@@ -25,7 +25,6 @@ src_sheet_id = 6375545637916548
 logger.info('Script started.')
 src_sheet = ss.Sheets.get_sheet(src_sheet_id)
 
-
 # get source sheet columns (URL_fix)
 def main():
     src_columns = modules.get_src_sheet_columns(ss, src_sheet_id)
