@@ -126,10 +126,10 @@ def process_src_sheet(src_sheet, columns, statuses, responses, permalinks):
         perm_sheet_id_value = get_cell_by_name(src_row, "Id_source", columns)
         target_column_value = get_cell_by_name(src_row, "url_target_column", columns)
         sheet_id_value = get_cell_by_name(src_row, "Sheet ID", columns)
-        request_value = get_cell_by_name(src_row, "Request", columns)
+        enable_value = get_cell_by_name(src_row, "Enable", columns)
         src_row_id = src_row.id
 
-        if request_value is not True:
+        if enable_value is not True:
             continue
 
         # Get the destination sheet ID and fetch the destination sheet or error
@@ -161,7 +161,6 @@ def process_src_sheet(src_sheet, columns, statuses, responses, permalinks):
         else:
             status = "Error Processing"
         update_status(src_row_id, status, columns)
-        update_row(dest_sheet=src_sheet, row_values={"Request": False}, dest_sheet_map=columns, row_id=src_row_id)
 
         # Update the status and permalinks if any
         if permalinks:
