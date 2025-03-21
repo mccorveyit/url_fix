@@ -1,0 +1,1331 @@
+2025-01-27 14:13:24,699 - INFO - Script started.
+2025-01-27 14:13:25,846 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-01-27 14:13:26,115 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-01-27 14:13:26,353 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-01-27 14:13:26,819 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8933103327569796"}}
+2025-01-27 14:13:27,316 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8933103327569796"}}
+2025-01-27 14:13:28,256 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1321399974422404"}}
+2025-01-27 14:13:30,758 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3343337609553796"}}
+2025-01-27 14:13:30,758 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:13:31,395 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/3343337609553796"}}
+2025-01-27 14:13:32,269 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1321399974422404"}}
+2025-01-27 14:13:35,301 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1321399974422404"}}
+2025-01-27 14:13:37,814 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6626954460850052"}}
+2025-01-27 14:13:38,056 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1049489529169796"}}
+2025-01-27 14:13:38,056 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:13:38,875 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/1049489529169796"}}
+2025-01-27 14:13:39,167 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1567434936215428"}}
+2025-01-27 14:13:40,020 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1321399974422404"}}
+2025-01-27 14:13:42,277 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:13:42,278 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:13:43,084 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:13:43,394 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/838036346589060"}}
+2025-01-27 14:13:43,394 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:13:44,777 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/838036346589060"}}
+2025-01-27 14:13:45,075 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/514056393805700"}}
+2025-01-27 14:13:45,075 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:13:45,848 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/514056393805700"}}
+2025-01-27 14:13:46,108 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/119227404314500"}}
+2025-01-27 14:13:46,108 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:13:47,388 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/119227404314500"}}
+2025-01-27 14:13:47,656 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/119227404314500"}}
+2025-01-27 14:13:47,657 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:13:48,679 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/119227404314500"}}
+2025-01-27 14:13:48,955 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6830703011751812"}}
+2025-01-27 14:13:48,956 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:13:49,831 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/6830703011751812"}}
+2025-01-27 14:13:50,100 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5416198482487172"}}
+2025-01-27 14:13:50,100 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:13:50,862 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/5416198482487172"}}
+2025-01-27 14:13:51,035 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4071633200670596"}}
+2025-01-27 14:13:51,036 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:13:51,918 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/4071633200670596"}}
+2025-01-27 14:13:52,099 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6253025107961732"}}
+2025-01-27 14:13:52,099 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:13:52,660 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/6253025107961732"}}
+2025-01-27 14:13:52,800 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1201203477538692"}}
+2025-01-27 14:13:52,801 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:13:53,548 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/1201203477538692"}}
+2025-01-27 14:13:53,725 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4035160338392964"}}
+2025-01-27 14:13:53,726 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:13:54,386 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/4035160338392964"}}
+2025-01-27 14:13:54,545 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5033933884313476"}}
+2025-01-27 14:13:54,546 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:13:55,136 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/5033933884313476"}}
+2025-01-27 14:13:55,285 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2610120080969604"}}
+2025-01-27 14:13:55,285 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:13:55,938 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/2610120080969604"}}
+2025-01-27 14:13:56,090 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:13:56,090 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:13:57,244 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:14:03,441 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4928893615400836"}}
+2025-01-27 14:14:08,554 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6300903738238852"}}
+2025-01-27 14:14:11,611 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5213426365556612"}}
+2025-01-27 14:14:11,612 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:14:12,252 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/5213426365556612"}}
+2025-01-27 14:14:12,488 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3136311461734276"}}
+2025-01-27 14:14:12,488 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:14:13,023 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/3136311461734276"}}
+2025-01-27 14:14:13,189 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/313057659381636"}}
+2025-01-27 14:14:13,189 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:14:13,749 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/313057659381636"}}
+2025-01-27 14:14:13,923 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2010411554891652"}}
+2025-01-27 14:14:13,924 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:14:14,619 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/2010411554891652"}}
+2025-01-27 14:14:14,753 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3524542145554308"}}
+2025-01-27 14:14:14,754 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:14:15,330 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/3524542145554308"}}
+2025-01-27 14:14:15,492 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3999909125875588"}}
+2025-01-27 14:14:15,492 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:14:16,162 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/3999909125875588"}}
+2025-01-27 14:14:16,311 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4236166686893956"}}
+2025-01-27 14:14:16,312 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:14:17,030 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/4236166686893956"}}
+2025-01-27 14:14:17,194 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1928360499668868"}}
+2025-01-27 14:14:17,194 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:14:17,752 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/1928360499668868"}}
+2025-01-27 14:14:17,900 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8598066753234820"}}
+2025-01-27 14:14:17,900 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:14:18,824 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/8598066753234820"}}
+2025-01-27 14:14:18,985 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8598066753234820"}}
+2025-01-27 14:14:18,986 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:14:19,864 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/8598066753234820"}}
+2025-01-27 14:14:20,025 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/856267943110532"}}
+2025-01-27 14:14:20,025 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:14:20,705 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/856267943110532"}}
+2025-01-27 14:14:20,854 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/856267943110532"}}
+2025-01-27 14:14:20,855 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:14:21,593 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/856267943110532"}}
+2025-01-27 14:14:21,759 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3522652359944068"}}
+2025-01-27 14:14:21,760 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:14:22,569 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/3522652359944068"}}
+2025-01-27 14:14:22,734 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3522652359944068"}}
+2025-01-27 14:14:22,734 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:14:23,713 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/3522652359944068"}}
+2025-01-27 14:14:23,911 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3204756060563332"}}
+2025-01-27 14:14:23,911 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:14:24,827 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/3204756060563332"}}
+2025-01-27 14:14:24,987 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3204756060563332"}}
+2025-01-27 14:14:24,988 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:14:25,843 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/3204756060563332"}}
+2025-01-27 14:14:27,503 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4552067932022660"}}
+2025-01-27 14:14:39,274 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4552067932022660"}}
+2025-01-27 14:14:50,122 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:14:50,123 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:14:50,867 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:14:52,051 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1321399974422404"}}
+2025-01-27 14:14:54,390 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1321399974422404"}}
+2025-01-27 14:14:57,490 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1321399974422404"}}
+2025-01-27 14:14:59,982 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1067526747645828"}}
+2025-01-27 14:14:59,982 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:15:00,646 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/1067526747645828"}}
+2025-01-27 14:15:00,992 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4823963378444164"}}
+2025-01-27 14:15:01,256 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4823963378444164"}}
+2025-01-27 14:15:01,529 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4823963378444164"}}
+2025-01-27 14:15:01,800 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4823963378444164"}}
+2025-01-27 14:15:02,066 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4823963378444164"}}
+2025-01-27 14:15:02,348 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4823963378444164"}}
+2025-01-27 14:15:02,610 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4823963378444164"}}
+2025-01-27 14:15:02,875 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4823963378444164"}}
+2025-01-27 14:15:03,145 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4823963378444164"}}
+2025-01-27 14:15:03,420 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4823963378444164"}}
+2025-01-27 14:15:03,679 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4823963378444164"}}
+2025-01-27 14:15:03,930 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4823963378444164"}}
+2025-01-27 14:15:04,256 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4823963378444164"}}
+2025-01-27 14:15:04,517 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4823963378444164"}}
+2025-01-27 14:15:04,678 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/119227404314500"}}
+2025-01-27 14:15:04,678 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:15:05,730 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/119227404314500"}}
+2025-01-27 14:15:06,220 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/133674910934916"}}
+2025-01-27 14:15:07,127 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5657351966484356"}}
+2025-01-27 14:15:08,756 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4781353154701188"}}
+2025-01-27 14:15:08,756 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:15:09,577 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/4781353154701188"}}
+2025-01-27 14:15:09,935 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6934517702256516"}}
+2025-01-27 14:15:10,263 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6934517702256516"}}
+2025-01-27 14:15:10,456 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5300001308993412"}}
+2025-01-27 14:15:10,456 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:15:10,611 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/5300001308993412"}}
+2025-01-27 14:15:10,611 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:15:10,612 - ERROR - GET_SHEET_OR_REPORT NONE Error: {"result": {"code": 1006, "errorCode": 1006, "message": "Not Found", "name": "ApiError", "recommendation": "Do not retry without fixing the problem. ", "refId": "nuinoa", "shouldRetry": false, "statusCode": 404}}
+2025-01-27 14:15:12,021 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8933103327569796/rows"}}
+2025-01-27 14:15:12,170 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3649842393180036"}}
+2025-01-27 14:15:12,170 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:15:12,325 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/3649842393180036"}}
+2025-01-27 14:15:12,325 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:15:12,326 - ERROR - GET_SHEET_OR_REPORT NONE Error: {"result": {"code": 1006, "errorCode": 1006, "message": "Not Found", "name": "ApiError", "recommendation": "Do not retry without fixing the problem. ", "refId": "tbw08c", "shouldRetry": false, "statusCode": 404}}
+2025-01-27 14:15:12,942 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8933103327569796/rows"}}
+2025-01-27 14:15:13,091 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/372163871041412"}}
+2025-01-27 14:15:13,092 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:15:13,248 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/372163871041412"}}
+2025-01-27 14:15:13,248 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:15:13,249 - ERROR - GET_SHEET_OR_REPORT NONE Error: {"result": {"code": 1006, "errorCode": 1006, "message": "Not Found", "name": "ApiError", "recommendation": "Do not retry without fixing the problem. ", "refId": "6bk65u", "shouldRetry": false, "statusCode": 404}}
+2025-01-27 14:15:14,118 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8933103327569796/rows"}}
+2025-01-27 14:15:14,274 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/372163871041412"}}
+2025-01-27 14:15:14,274 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:15:14,422 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/372163871041412"}}
+2025-01-27 14:15:14,423 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:15:14,423 - ERROR - GET_SHEET_OR_REPORT NONE Error: {"result": {"code": 1006, "errorCode": 1006, "message": "Not Found", "name": "ApiError", "recommendation": "Do not retry without fixing the problem. ", "refId": "5b9zcd", "shouldRetry": false, "statusCode": 404}}
+2025-01-27 14:15:14,872 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8933103327569796/rows"}}
+2025-01-27 14:15:15,016 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5416198482487172"}}
+2025-01-27 14:15:15,016 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:15:15,991 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/5416198482487172"}}
+2025-01-27 14:15:16,530 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5657351966484356"}}
+2025-01-27 14:15:18,331 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/133674910934916"}}
+2025-01-27 14:15:19,605 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3054530863622020"}}
+2025-01-27 14:15:21,381 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2100398749181828"}}
+2025-01-27 14:15:21,382 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:15:22,507 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/2100398749181828"}}
+2025-01-27 14:15:23,035 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/133674910934916"}}
+2025-01-27 14:15:23,597 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5561360202393476"}}
+2025-01-27 14:15:23,597 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:15:24,849 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/5561360202393476"}}
+2025-01-27 14:15:25,975 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:15:29,859 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:15:34,218 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:15:37,222 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4037760148367236"}}
+2025-01-27 14:15:37,222 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:15:38,100 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/4037760148367236"}}
+2025-01-27 14:15:38,336 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:15:38,337 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:15:39,405 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:15:39,636 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5561360202393476"}}
+2025-01-27 14:15:39,637 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:15:40,874 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/5561360202393476"}}
+2025-01-27 14:15:41,088 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1072403280357252"}}
+2025-01-27 14:15:41,088 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:15:41,251 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/1072403280357252"}}
+2025-01-27 14:15:41,252 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:15:41,252 - ERROR - GET_SHEET_OR_REPORT NONE Error: {"result": {"code": 1006, "errorCode": 1006, "message": "Not Found", "name": "ApiError", "recommendation": "Do not retry without fixing the problem. ", "refId": "dngczf", "shouldRetry": false, "statusCode": 404}}
+2025-01-27 14:15:42,674 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8933103327569796/rows"}}
+2025-01-27 14:15:43,070 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/133674910934916"}}
+2025-01-27 14:15:43,631 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4774972552963972"}}
+2025-01-27 14:15:43,632 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:15:44,558 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/4774972552963972"}}
+2025-01-27 14:15:44,729 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7027996432328580"}}
+2025-01-27 14:15:44,730 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:15:46,493 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7027996432328580"}}
+2025-01-27 14:15:46,653 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4666202506192772"}}
+2025-01-27 14:15:46,653 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:15:47,572 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/4666202506192772"}}
+2025-01-27 14:15:47,887 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1944382317324164"}}
+2025-01-27 14:15:48,056 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:15:48,057 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:15:48,777 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:15:49,056 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7326204131862404"}}
+2025-01-27 14:15:49,056 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:15:50,872 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7326204131862404"}}
+2025-01-27 14:15:51,160 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/912011378511748"}}
+2025-01-27 14:15:51,325 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2100398749181828"}}
+2025-01-27 14:15:51,326 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:15:52,337 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/2100398749181828"}}
+2025-01-27 14:15:52,498 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5561360202393476"}}
+2025-01-27 14:15:52,499 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:15:53,432 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/5561360202393476"}}
+2025-01-27 14:15:53,600 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2100398749181828"}}
+2025-01-27 14:15:53,600 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:15:54,429 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/2100398749181828"}}
+2025-01-27 14:15:54,710 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1567434936215428"}}
+2025-01-27 14:15:54,954 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1567434936215428"}}
+2025-01-27 14:15:55,202 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1567434936215428"}}
+2025-01-27 14:15:55,913 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1567434936215428"}}
+2025-01-27 14:15:56,044 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4774972552963972"}}
+2025-01-27 14:15:56,045 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:15:56,850 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/4774972552963972"}}
+2025-01-27 14:15:56,992 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7027996432328580"}}
+2025-01-27 14:15:56,993 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:15:57,985 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7027996432328580"}}
+2025-01-27 14:15:58,139 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4666202506192772"}}
+2025-01-27 14:15:58,140 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:15:59,085 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/4666202506192772"}}
+2025-01-27 14:15:59,252 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2082896638594948"}}
+2025-01-27 14:15:59,253 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:01,656 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/2082896638594948"}}
+2025-01-27 14:16:01,834 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1323337208778628"}}
+2025-01-27 14:16:01,835 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:02,486 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/1323337208778628"}}
+2025-01-27 14:16:02,648 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7077822975659908"}}
+2025-01-27 14:16:02,648 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:05,050 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7077822975659908"}}
+2025-01-27 14:16:05,228 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7267399610879876"}}
+2025-01-27 14:16:05,229 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:06,818 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7267399610879876"}}
+2025-01-27 14:16:06,964 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5815013470064516"}}
+2025-01-27 14:16:06,965 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:08,128 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/5815013470064516"}}
+2025-01-27 14:16:08,293 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7020284372537220"}}
+2025-01-27 14:16:08,293 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:09,091 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7020284372537220"}}
+2025-01-27 14:16:09,253 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4055176390332292"}}
+2025-01-27 14:16:09,254 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:10,161 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/4055176390332292"}}
+2025-01-27 14:16:10,334 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2100398749181828"}}
+2025-01-27 14:16:10,335 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:11,071 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/2100398749181828"}}
+2025-01-27 14:16:11,231 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5561360202393476"}}
+2025-01-27 14:16:11,232 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:12,371 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/5561360202393476"}}
+2025-01-27 14:16:12,543 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1634896552349572"}}
+2025-01-27 14:16:12,543 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:13,837 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/1634896552349572"}}
+2025-01-27 14:16:14,005 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:14,006 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:14,915 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:15,072 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:15,072 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:16,074 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:16,247 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:16,247 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:17,154 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:17,344 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:17,344 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:18,378 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:18,546 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:18,547 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:19,472 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:19,643 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:19,644 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:20,601 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:20,789 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:20,790 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:21,761 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:21,967 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:21,968 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:23,080 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:23,255 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:23,256 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:24,160 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:24,339 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:24,339 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:25,228 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:25,379 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:25,379 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:26,656 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:26,831 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:26,831 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:27,919 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:28,082 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:28,083 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:29,326 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:29,489 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:29,490 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:30,502 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:30,680 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:30,680 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:31,703 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:31,879 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:31,879 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:33,346 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:33,523 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:33,524 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:34,487 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:34,646 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:34,647 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:35,558 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:35,769 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:35,770 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:36,812 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:36,997 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:36,998 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:38,317 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:38,481 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:38,482 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:39,388 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:39,571 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:39,571 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:40,602 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:40,796 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:40,797 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:41,867 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:42,040 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:42,041 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:42,909 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:43,092 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:43,093 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:44,032 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:44,195 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:44,196 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:45,034 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:45,195 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:45,195 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:46,371 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:46,545 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:46,546 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:47,487 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:47,653 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:47,653 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:48,537 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:48,758 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:48,759 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:49,679 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:49,840 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:49,841 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:51,040 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:51,217 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:51,218 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:52,119 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:52,288 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:52,289 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:53,281 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:53,479 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:53,479 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:54,553 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:54,713 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:54,714 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:55,645 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:55,804 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:55,804 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:56,735 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:56,902 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:16:56,903 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:58,032 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:16:58,362 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5942061219925892"}}
+2025-01-27 14:16:58,686 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1698553202167684"}}
+2025-01-27 14:16:58,845 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7020284372537220"}}
+2025-01-27 14:16:58,846 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:16:59,636 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7020284372537220"}}
+2025-01-27 14:16:59,803 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2100398749181828"}}
+2025-01-27 14:16:59,803 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:02,145 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/2100398749181828"}}
+2025-01-27 14:17:02,313 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1689116462763908"}}
+2025-01-27 14:17:02,314 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:03,143 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/1689116462763908"}}
+2025-01-27 14:17:03,283 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1080713944190852"}}
+2025-01-27 14:17:03,283 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:03,846 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/1080713944190852"}}
+2025-01-27 14:17:03,981 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6745758627745668"}}
+2025-01-27 14:17:03,982 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:04,546 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/6745758627745668"}}
+2025-01-27 14:17:04,721 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1950633800191876"}}
+2025-01-27 14:17:04,721 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:05,314 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/1950633800191876"}}
+2025-01-27 14:17:05,462 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7105487908589444"}}
+2025-01-27 14:17:05,462 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:05,892 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7105487908589444"}}
+2025-01-27 14:17:06,033 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2110269144649604"}}
+2025-01-27 14:17:06,034 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:06,564 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/2110269144649604"}}
+2025-01-27 14:17:06,698 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/798477684526980"}}
+2025-01-27 14:17:06,699 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:07,340 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/798477684526980"}}
+2025-01-27 14:17:07,477 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3119406070583172"}}
+2025-01-27 14:17:07,477 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:08,419 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/3119406070583172"}}
+2025-01-27 14:17:08,585 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6235803202047876"}}
+2025-01-27 14:17:08,585 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:09,146 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/6235803202047876"}}
+2025-01-27 14:17:09,306 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:17:09,307 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:10,245 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:17:10,415 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:17:10,416 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:11,323 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:17:11,484 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:17:11,485 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:12,491 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:17:12,656 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:17:12,657 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:13,679 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:17:13,862 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:17:13,862 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:14,810 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:17:15,016 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:17:15,016 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:16,152 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:17:16,333 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:17:16,334 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:17,320 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:17:17,477 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:17:17,478 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:18,476 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:17:18,658 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:17:18,659 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:19,623 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:17:19,787 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:17:19,787 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:20,695 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:17:20,868 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:17:20,869 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:21,715 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:17:21,940 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:17:21,940 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:22,858 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:17:23,020 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:17:23,020 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:23,908 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:17:24,072 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:17:24,073 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:24,993 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:17:25,167 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:17:25,168 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:26,047 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:17:26,217 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:17:26,218 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:27,164 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:17:27,330 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:17:27,330 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:28,166 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:17:28,351 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:17:28,351 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:29,319 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:17:29,492 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:17:29,492 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:30,503 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:17:30,677 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:17:30,678 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:31,637 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:17:31,808 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:17:31,808 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:32,714 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:17:32,973 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7941747703238532"}}
+2025-01-27 14:17:32,973 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:33,515 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7941747703238532"}}
+2025-01-27 14:17:33,660 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8598066753234820"}}
+2025-01-27 14:17:33,660 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:34,628 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/8598066753234820"}}
+2025-01-27 14:17:34,782 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8598066753234820"}}
+2025-01-27 14:17:34,783 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:35,584 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/8598066753234820"}}
+2025-01-27 14:17:35,787 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/856267943110532"}}
+2025-01-27 14:17:35,788 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:36,756 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/856267943110532"}}
+2025-01-27 14:17:36,924 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/856267943110532"}}
+2025-01-27 14:17:36,924 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:37,591 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/856267943110532"}}
+2025-01-27 14:17:37,754 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3522652359944068"}}
+2025-01-27 14:17:37,754 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:38,736 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/3522652359944068"}}
+2025-01-27 14:17:38,905 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3522652359944068"}}
+2025-01-27 14:17:38,906 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:39,724 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/3522652359944068"}}
+2025-01-27 14:17:39,888 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3204756060563332"}}
+2025-01-27 14:17:39,889 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:40,865 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/3204756060563332"}}
+2025-01-27 14:17:41,053 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3204756060563332"}}
+2025-01-27 14:17:41,054 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:42,459 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/3204756060563332"}}
+2025-01-27 14:17:42,624 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:17:42,625 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:43,685 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:17:43,975 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:17:43,975 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:44,772 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:17:45,031 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:17:45,031 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:46,029 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:17:46,204 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5727445369966468"}}
+2025-01-27 14:17:46,204 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:47,237 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/5727445369966468"}}
+2025-01-27 14:17:47,416 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7838164097912708"}}
+2025-01-27 14:17:47,417 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:17:48,406 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7838164097912708"}}
+2025-01-27 14:17:49,402 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:17:53,288 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:17:57,478 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:18:01,019 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:18:01,020 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:18:02,100 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:18:03,277 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:18:05,945 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:18:05,946 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:18:06,894 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:18:08,052 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:18:11,045 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:18:11,046 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:18:11,960 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:18:13,200 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:18:16,226 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:18:16,226 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:18:17,104 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:18:18,203 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:18:21,044 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:18:21,044 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:18:21,883 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:18:23,106 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:18:26,005 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:18:26,005 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:18:27,270 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:18:28,515 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:18:31,919 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:18:31,919 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:18:32,872 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:18:33,943 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:18:36,743 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:18:36,743 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:18:38,015 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:18:39,268 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:18:42,157 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:18:42,157 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:18:43,247 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:18:44,443 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:18:47,585 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/641307542245252"}}
+2025-01-27 14:18:47,586 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:18:48,971 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/641307542245252"}}
+2025-01-27 14:18:50,225 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:18:53,295 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5727445369966468"}}
+2025-01-27 14:18:53,295 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:18:54,419 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/5727445369966468"}}
+2025-01-27 14:18:55,625 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:18:58,645 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5727445369966468"}}
+2025-01-27 14:18:58,646 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:18:59,671 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/5727445369966468"}}
+2025-01-27 14:19:00,903 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:19:04,216 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5727445369966468"}}
+2025-01-27 14:19:04,217 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:19:05,042 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/5727445369966468"}}
+2025-01-27 14:19:06,174 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:19:09,189 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5727445369966468"}}
+2025-01-27 14:19:09,189 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:19:10,094 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/5727445369966468"}}
+2025-01-27 14:19:13,242 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:19:16,165 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5727445369966468"}}
+2025-01-27 14:19:16,166 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:19:17,637 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/5727445369966468"}}
+2025-01-27 14:19:18,864 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:19:22,003 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5727445369966468"}}
+2025-01-27 14:19:22,003 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:19:23,116 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/5727445369966468"}}
+2025-01-27 14:19:24,346 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:19:27,120 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5727445369966468"}}
+2025-01-27 14:19:27,120 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:19:29,506 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/5727445369966468"}}
+2025-01-27 14:19:33,994 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:19:36,949 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5727445369966468"}}
+2025-01-27 14:19:36,949 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:19:39,186 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/5727445369966468"}}
+2025-01-27 14:19:40,342 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:19:43,452 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5727445369966468"}}
+2025-01-27 14:19:43,452 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:19:44,393 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/5727445369966468"}}
+2025-01-27 14:19:45,544 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:19:48,370 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5727445369966468"}}
+2025-01-27 14:19:48,370 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:19:49,515 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/5727445369966468"}}
+2025-01-27 14:19:50,793 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:19:53,656 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7838164097912708"}}
+2025-01-27 14:19:53,656 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:19:54,424 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7838164097912708"}}
+2025-01-27 14:19:55,729 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:19:58,818 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7838164097912708"}}
+2025-01-27 14:19:58,818 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:19:59,562 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7838164097912708"}}
+2025-01-27 14:20:00,847 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:20:03,636 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7838164097912708"}}
+2025-01-27 14:20:03,636 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:20:04,392 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7838164097912708"}}
+2025-01-27 14:20:05,626 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:20:08,730 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7838164097912708"}}
+2025-01-27 14:20:08,730 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:20:09,538 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7838164097912708"}}
+2025-01-27 14:20:10,742 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:20:13,644 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7838164097912708"}}
+2025-01-27 14:20:13,644 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:20:14,386 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7838164097912708"}}
+2025-01-27 14:20:15,615 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:20:18,781 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7838164097912708"}}
+2025-01-27 14:20:18,782 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:20:19,633 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7838164097912708"}}
+2025-01-27 14:20:20,717 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:20:23,545 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7838164097912708"}}
+2025-01-27 14:20:23,546 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:20:24,461 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7838164097912708"}}
+2025-01-27 14:20:25,654 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:20:28,767 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7838164097912708"}}
+2025-01-27 14:20:28,767 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:20:29,607 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7838164097912708"}}
+2025-01-27 14:20:30,796 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:20:33,661 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7838164097912708"}}
+2025-01-27 14:20:33,662 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:20:34,621 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7838164097912708"}}
+2025-01-27 14:20:35,819 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:20:38,969 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7838164097912708"}}
+2025-01-27 14:20:38,970 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:20:39,715 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7838164097912708"}}
+2025-01-27 14:20:40,840 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6884210880341892"}}
+2025-01-27 14:20:43,814 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2698459043811204"}}
+2025-01-27 14:20:44,186 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2698459043811204"}}
+2025-01-27 14:20:44,453 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2698459043811204"}}
+2025-01-27 14:20:44,729 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2698459043811204"}}
+2025-01-27 14:20:45,013 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2698459043811204"}}
+2025-01-27 14:20:45,347 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2698459043811204"}}
+2025-01-27 14:20:45,484 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:20:45,484 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:20:46,639 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:20:46,918 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:20:46,918 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:20:47,925 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:20:48,179 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:20:48,180 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:20:49,024 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:20:49,281 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:20:49,281 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:20:50,155 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:20:50,426 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:20:50,426 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:20:51,668 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:20:51,950 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:20:51,950 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:20:52,812 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:20:53,075 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:20:53,075 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:20:53,747 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:20:53,991 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:20:53,992 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:20:54,868 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:20:55,120 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:20:55,120 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:20:55,836 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:20:56,139 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:20:56,139 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:20:56,802 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:20:57,078 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:20:57,078 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:20:57,818 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:20:58,052 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:20:58,053 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:20:59,087 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:20:59,351 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:20:59,352 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:00,199 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:00,521 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:00,521 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:01,419 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:01,664 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:01,664 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:02,433 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:02,708 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7289629296250756"}}
+2025-01-27 14:21:02,708 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:03,481 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7289629296250756"}}
+2025-01-27 14:21:03,752 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:03,752 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:04,838 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:05,137 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:05,137 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:05,885 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:06,142 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:06,143 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:06,881 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:07,143 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:07,144 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:07,850 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:08,121 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:08,121 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:08,936 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:09,242 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:09,242 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:10,028 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:10,352 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:10,352 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:11,102 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:11,347 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:11,347 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:12,152 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:12,411 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:12,411 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:13,330 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:13,612 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:13,612 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:14,359 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:14,609 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:14,609 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:15,279 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:15,527 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:15,527 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:16,247 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:16,496 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:16,496 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:17,242 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:17,559 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:17,560 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:18,296 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:18,578 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:18,578 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:19,239 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:19,504 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:19,504 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:20,194 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:20,488 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:20,489 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:21,202 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:21,504 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:21,505 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:22,186 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:22,430 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:22,430 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:23,605 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:23,923 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:23,924 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:24,869 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:25,183 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:25,183 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:26,499 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:26,754 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:26,754 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:27,497 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:27,757 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:27,758 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:28,451 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:28,744 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:28,744 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:29,513 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:29,825 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:29,826 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:30,510 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:30,760 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:30,760 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:31,425 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:31,654 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:31,654 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:32,687 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:32,934 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:32,934 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:33,637 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:33,944 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:33,945 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:34,605 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:34,853 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:34,853 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:35,766 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:36,017 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:36,017 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:36,753 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:37,008 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:37,008 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:37,715 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:38,024 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:38,024 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:38,683 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:38,937 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:38,938 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:39,722 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:39,968 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:39,969 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:40,611 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:40,865 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:40,865 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:42,189 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:42,497 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:42,498 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:43,178 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:43,433 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:43,433 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:44,101 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:44,349 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:44,349 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:45,014 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:45,306 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:45,306 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:45,991 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:46,304 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:46,305 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:47,035 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:47,299 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:47,300 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:48,217 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:48,474 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:48,474 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:49,361 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:49,619 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:49,619 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:50,336 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:50,669 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6938200674461572"}}
+2025-01-27 14:21:50,670 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:51,328 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/6938200674461572"}}
+2025-01-27 14:21:51,553 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:51,554 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:52,373 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:52,648 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:52,648 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:53,554 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:53,811 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:53,811 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:54,519 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:54,859 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:54,859 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:55,849 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:56,112 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7806524950112132"}}
+2025-01-27 14:21:56,113 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:56,840 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7806524950112132"}}
+2025-01-27 14:21:57,077 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2123116499128196"}}
+2025-01-27 14:21:57,078 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:57,740 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/2123116499128196"}}
+2025-01-27 14:21:57,905 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6331776427315076"}}
+2025-01-27 14:21:57,905 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:58,489 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/6331776427315076"}}
+2025-01-27 14:21:58,634 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/82422917975940"}}
+2025-01-27 14:21:58,635 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:59,123 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/82422917975940"}}
+2025-01-27 14:21:59,259 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2633844482068356"}}
+2025-01-27 14:21:59,259 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:21:59,900 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/2633844482068356"}}
+2025-01-27 14:22:00,076 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1135372268425092"}}
+2025-01-27 14:22:00,076 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:22:00,513 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/1135372268425092"}}
+2025-01-27 14:22:00,650 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6517010313727876"}}
+2025-01-27 14:22:00,651 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:22:01,104 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/6517010313727876"}}
+2025-01-27 14:22:01,246 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5661026015989636"}}
+2025-01-27 14:22:01,246 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:22:01,653 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/5661026015989636"}}
+2025-01-27 14:22:01,791 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1391386679005060"}}
+2025-01-27 14:22:01,791 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:22:02,188 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/1391386679005060"}}
+2025-01-27 14:22:02,324 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3502105406951300"}}
+2025-01-27 14:22:02,324 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:22:02,900 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/3502105406951300"}}
+2025-01-27 14:22:03,031 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6152595223564164"}}
+2025-01-27 14:22:03,031 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:22:03,451 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/6152595223564164"}}
+2025-01-27 14:22:03,578 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7365266354687876"}}
+2025-01-27 14:22:03,579 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:22:04,573 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7365266354687876"}}
+2025-01-27 14:22:04,732 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3386656686034820"}}
+2025-01-27 14:22:04,732 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:22:05,148 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/3386656686034820"}}
+2025-01-27 14:22:05,281 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4486168313810820"}}
+2025-01-27 14:22:05,282 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:22:05,826 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/4486168313810820"}}
+2025-01-27 14:22:05,973 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6597574236524420"}}
+2025-01-27 14:22:05,973 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:22:06,450 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/6597574236524420"}}
+2025-01-27 14:22:06,601 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5543073866010500"}}
+2025-01-27 14:22:06,601 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:22:07,036 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/5543073866010500"}}
+2025-01-27 14:22:07,205 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1489476215852932"}}
+2025-01-27 14:22:07,206 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:22:07,699 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/1489476215852932"}}
+2025-01-27 14:22:07,842 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4205328992259972"}}
+2025-01-27 14:22:07,842 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:22:08,353 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/4205328992259972"}}
+2025-01-27 14:22:08,482 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1576938929868676"}}
+2025-01-27 14:22:08,483 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:22:09,024 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/1576938929868676"}}
+2025-01-27 14:22:09,169 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1876985345167236"}}
+2025-01-27 14:22:09,169 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:22:09,866 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/1876985345167236"}}
+2025-01-27 14:22:10,019 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4655149507104644"}}
+2025-01-27 14:22:10,020 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:22:10,691 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/4655149507104644"}}
+2025-01-27 14:22:10,830 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5237419297165188"}}
+2025-01-27 14:22:10,830 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:22:11,387 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/5237419297165188"}}
+2025-01-27 14:22:11,519 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5738486824914820"}}
+2025-01-27 14:22:11,519 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:22:12,085 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/5738486824914820"}}
+2025-01-27 14:22:12,227 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7683226541707140"}}
+2025-01-27 14:22:12,227 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:22:12,810 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/7683226541707140"}}
+2025-01-27 14:22:12,956 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6316030540337028"}}
+2025-01-27 14:22:12,957 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:22:13,493 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/6316030540337028"}}
+2025-01-27 14:22:13,628 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4035160338392964"}}
+2025-01-27 14:22:13,628 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:22:14,794 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/4035160338392964"}}
+2025-01-27 14:22:15,475 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/6375545637916548/rows"}}
+2025-01-27 14:22:15,788 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8933103327569796"}}
+2025-01-27 14:22:16,257 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8933103327569796"}}
+2025-01-27 14:22:16,707 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/927699087714180"}}
+2025-01-27 14:22:16,957 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7025547290142596"}}
+2025-01-27 14:22:17,256 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3802319289640836"}}
+2025-01-27 14:22:17,687 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3318326337267588"}}
+2025-01-27 14:22:18,742 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2626405101004676"}}
+2025-01-27 14:22:20,222 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7076538148513668"}}
+2025-01-27 14:22:21,698 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7076538148513668"}}
+2025-01-27 14:22:23,350 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8985484681602948"}}
+2025-01-27 14:22:24,485 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4846896138217348"}}
+2025-01-27 14:22:27,023 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6394619958192004"}}
+2025-01-27 14:22:27,773 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5889084137727876"}}
+2025-01-27 14:22:28,291 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8972796274468740"}}
+2025-01-27 14:22:28,675 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8302056399234948"}}
+2025-01-27 14:22:29,375 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5418305407215492"}}
+2025-01-27 14:22:30,293 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5418305407215492"}}
+2025-01-27 14:22:31,265 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5418305407215492"}}
+2025-01-27 14:22:32,182 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5418305407215492"}}
+2025-01-27 14:22:33,095 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5418305407215492"}}
+2025-01-27 14:22:34,146 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5418305407215492"}}
+2025-01-27 14:22:35,133 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5418305407215492"}}
+2025-01-27 14:22:36,089 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5418305407215492"}}
+2025-01-27 14:22:37,365 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4675179990280068"}}
+2025-01-27 14:22:39,466 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7139522434623364"}}
+2025-01-27 14:22:40,499 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7139522434623364"}}
+2025-01-27 14:22:41,753 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7587854214817668"}}
+2025-01-27 14:22:46,330 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8632242219050884"}}
+2025-01-27 14:22:54,515 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4447916199831428"}}
+2025-01-27 14:23:04,870 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/436283903371140"}}
+2025-01-27 14:23:09,996 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/958078809073540"}}
+2025-01-27 14:23:18,409 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1032417847863172"}}
+2025-01-27 14:23:21,403 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6805970316748676"}}
+2025-01-27 14:23:24,108 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5299063055771524"}}
+2025-01-27 14:23:25,525 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5299063055771524"}}
+2025-01-27 14:23:26,952 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6805970316748676"}}
+2025-01-27 14:23:30,128 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8632242219050884"}}
+2025-01-27 14:23:35,175 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7587854214817668"}}
+2025-01-27 14:23:39,349 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/436283903371140"}}
+2025-01-27 14:23:41,731 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4447916199831428"}}
+2025-01-27 14:23:52,062 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1032417847863172"}}
+2025-01-27 14:23:54,401 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/958078809073540"}}
+2025-01-27 14:24:02,412 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7139522434623364"}}
+2025-01-27 14:24:03,341 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7139522434623364"}}
+2025-01-27 14:24:04,180 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6177578441566084"}}
+2025-01-27 14:24:05,151 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6867960678639492"}}
+2025-01-27 14:24:05,631 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2628866612193156"}}
+2025-01-27 14:24:05,912 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8645286865201028"}}
+2025-01-27 14:24:06,329 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5418305407215492"}}
+2025-01-27 14:24:07,861 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7209223378495364"}}
+2025-01-27 14:24:14,625 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7380175961778052"}}
+2025-01-27 14:24:18,042 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6646101626382212"}}
+2025-01-27 14:24:22,175 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8475512881342340"}}
+2025-01-27 14:24:24,631 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8476891565844356"}}
+2025-01-27 14:24:27,941 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8062376114186116"}}
+2025-01-27 14:24:29,401 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1258732411375492"}}
+2025-01-27 14:24:30,277 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2478631508305796"}}
+2025-01-27 14:24:31,916 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1743242912917380"}}
+2025-01-27 14:24:33,259 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2602979401459588"}}
+2025-01-27 14:24:35,410 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5174268947392388"}}
+2025-01-27 14:24:36,375 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2127028305586052"}}
+2025-01-27 14:24:37,294 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3395773887997828"}}
+2025-01-27 14:24:37,920 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/15184760360836"}}
+2025-01-27 14:24:38,444 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6177578441566084"}}
+2025-01-27 14:24:39,552 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5841464182761348"}}
+2025-01-27 14:24:41,123 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5841464182761348"}}
+2025-01-27 14:24:42,807 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/442271817590660"}}
+2025-01-27 14:24:43,751 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/442271817590660"}}
+2025-01-27 14:24:44,631 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5841464182761348"}}
+2025-01-27 14:24:45,908 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3611151448729476"}}
+2025-01-27 14:24:45,908 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:24:46,061 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/3611151448729476"}}
+2025-01-27 14:24:46,061 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:24:46,062 - ERROR - GET_SHEET_OR_REPORT NONE Error: {"result": {"code": 1006, "errorCode": 1006, "message": "Not Found", "name": "ApiError", "recommendation": "Do not retry without fixing the problem. ", "refId": "2y7j6g", "shouldRetry": false, "statusCode": 404}}
+2025-01-27 14:24:46,847 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8933103327569796/rows"}}
+2025-01-27 14:24:46,995 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5300001308993412"}}
+2025-01-27 14:24:46,996 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:24:47,153 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/5300001308993412"}}
+2025-01-27 14:24:47,154 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:24:47,154 - ERROR - GET_SHEET_OR_REPORT NONE Error: {"result": {"code": 1006, "errorCode": 1006, "message": "Not Found", "name": "ApiError", "recommendation": "Do not retry without fixing the problem. ", "refId": "mmfwid", "shouldRetry": false, "statusCode": 404}}
+2025-01-27 14:24:48,589 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8933103327569796/rows"}}
+2025-01-27 14:24:48,750 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5300001308993412"}}
+2025-01-27 14:24:48,751 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:24:48,893 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/5300001308993412"}}
+2025-01-27 14:24:48,893 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:24:48,894 - ERROR - GET_SHEET_OR_REPORT NONE Error: {"result": {"code": 1006, "errorCode": 1006, "message": "Not Found", "name": "ApiError", "recommendation": "Do not retry without fixing the problem. ", "refId": "vkh391", "shouldRetry": false, "statusCode": 404}}
+2025-01-27 14:24:49,646 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8933103327569796/rows"}}
+2025-01-27 14:24:49,792 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3611151448729476"}}
+2025-01-27 14:24:49,792 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:24:49,942 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/3611151448729476"}}
+2025-01-27 14:24:49,942 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:24:49,942 - ERROR - GET_SHEET_OR_REPORT NONE Error: {"result": {"code": 1006, "errorCode": 1006, "message": "Not Found", "name": "ApiError", "recommendation": "Do not retry without fixing the problem. ", "refId": "z7kckp", "shouldRetry": false, "statusCode": 404}}
+2025-01-27 14:24:50,691 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8933103327569796/rows"}}
+2025-01-27 14:24:50,983 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/749153417488260"}}
+2025-01-27 14:24:51,330 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/749153417488260"}}
+2025-01-27 14:24:51,684 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5603335857301380"}}
+2025-01-27 14:24:52,013 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5355029705058180"}}
+2025-01-27 14:24:52,326 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8503020112635780"}}
+2025-01-27 14:24:52,822 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6358721317103492"}}
+2025-01-27 14:24:53,672 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8503020112635780"}}
+2025-01-27 14:24:55,299 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7990527770552196"}}
+2025-01-27 14:24:57,088 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6954495109293956"}}
+2025-01-27 14:24:57,754 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1661393326892932"}}
+2025-01-27 14:24:59,306 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8853881011627908"}}
+2025-01-27 14:25:00,958 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5218133855233924"}}
+2025-01-27 14:25:01,342 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7221175446202244"}}
+2025-01-27 14:25:01,505 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2084173797189508"}}
+2025-01-27 14:25:01,505 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:25:01,661 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/2084173797189508"}}
+2025-01-27 14:25:01,661 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:25:01,662 - ERROR - GET_SHEET_OR_REPORT NONE Error: {"result": {"code": 1006, "errorCode": 1006, "message": "Not Found", "name": "ApiError", "recommendation": "Do not retry without fixing the problem. ", "refId": "m7l4k1", "shouldRetry": false, "statusCode": 404}}
+2025-01-27 14:25:04,225 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8933103327569796/rows"}}
+2025-01-27 14:25:04,570 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/86569982945156"}}
+2025-01-27 14:25:06,171 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6513822409222020"}}
+2025-01-27 14:25:09,962 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6513822409222020"}}
+2025-01-27 14:25:14,103 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6513822409222020"}}
+2025-01-27 14:25:17,035 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5732721445103492"}}
+2025-01-27 14:25:17,531 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7077390166845316"}}
+2025-01-27 14:25:18,498 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4709211838932868"}}
+2025-01-27 14:25:19,493 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1321399974422404"}}
+2025-01-27 14:25:21,850 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3123980988114820"}}
+2025-01-27 14:25:22,539 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1301705035566980"}}
+2025-01-27 14:25:24,224 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1929414774312836"}}
+2025-01-27 14:25:24,666 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1147712277112708"}}
+2025-01-27 14:25:25,560 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4586125655336836"}}
+2025-01-27 14:25:26,493 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8800141407741828"}}
+2025-01-27 14:25:30,212 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1428774936962948"}}
+2025-01-27 14:25:30,534 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8087111534071684"}}
+2025-01-27 14:25:30,534 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:25:30,711 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/8087111534071684"}}
+2025-01-27 14:25:30,712 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:25:30,713 - ERROR - GET_SHEET_OR_REPORT NONE Error: {"result": {"code": 1006, "errorCode": 1006, "message": "Not Found", "name": "ApiError", "recommendation": "Do not retry without fixing the problem. ", "refId": "fg5w0v", "shouldRetry": false, "statusCode": 404}}
+2025-01-27 14:25:33,167 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8933103327569796/rows"}}
+2025-01-27 14:25:33,318 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8087111534071684"}}
+2025-01-27 14:25:33,318 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:25:33,475 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/8087111534071684"}}
+2025-01-27 14:25:33,475 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:25:33,476 - ERROR - GET_SHEET_OR_REPORT NONE Error: {"result": {"code": 1006, "errorCode": 1006, "message": "Not Found", "name": "ApiError", "recommendation": "Do not retry without fixing the problem. ", "refId": "72xvm7", "shouldRetry": false, "statusCode": 404}}
+2025-01-27 14:25:42,163 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8933103327569796/rows"}}
+2025-01-27 14:25:42,322 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8087111534071684"}}
+2025-01-27 14:25:42,323 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:25:42,468 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/8087111534071684"}}
+2025-01-27 14:25:42,469 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:25:42,469 - ERROR - GET_SHEET_OR_REPORT NONE Error: {"result": {"code": 1006, "errorCode": 1006, "message": "Not Found", "name": "ApiError", "recommendation": "Do not retry without fixing the problem. ", "refId": "ta8ecc", "shouldRetry": false, "statusCode": 404}}
+2025-01-27 14:25:44,883 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8933103327569796/rows"}}
+2025-01-27 14:25:45,130 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1929414774312836"}}
+2025-01-27 14:25:45,476 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4985673001947012"}}
+2025-01-27 14:25:47,389 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7019131791796100"}}
+2025-01-27 14:25:50,205 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5753681337077636"}}
+2025-01-27 14:25:50,591 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5753681337077636"}}
+2025-01-27 14:25:50,931 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5753681337077636"}}
+2025-01-27 14:25:51,280 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5753681337077636"}}
+2025-01-27 14:25:51,641 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6714647251996548"}}
+2025-01-27 14:25:51,972 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6714647251996548"}}
+2025-01-27 14:25:52,319 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5753681337077636"}}
+2025-01-27 14:25:52,685 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8390165399555972"}}
+2025-01-27 14:25:53,051 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5126421630373764"}}
+2025-01-27 14:25:53,354 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3304479323541380"}}
+2025-01-27 14:25:53,639 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5245259080486788"}}
+2025-01-27 14:25:53,931 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4644814062571396"}}
+2025-01-27 14:25:54,202 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6839941782785924"}}
+2025-01-27 14:25:54,472 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8106802516283268"}}
+2025-01-27 14:25:54,746 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6474401411190660"}}
+2025-01-27 14:25:55,016 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4075683651211140"}}
+2025-01-27 14:25:55,312 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7950946743046020"}}
+2025-01-27 14:25:55,592 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4618515977817988"}}
+2025-01-27 14:25:55,878 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6382218528116612"}}
+2025-01-27 14:25:56,173 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7046671443644292"}}
+2025-01-27 14:25:56,433 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3447347115675524"}}
+2025-01-27 14:25:56,682 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7209394869587844"}}
+2025-01-27 14:25:56,805 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/466244675260292"}}
+2025-01-27 14:25:56,806 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:25:56,928 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/466244675260292"}}
+2025-01-27 14:25:56,929 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-01-27 14:25:56,929 - ERROR - GET_SHEET_OR_REPORT NONE Error: {"result": {"code": 1006, "errorCode": 1006, "message": "Not Found", "name": "ApiError", "recommendation": "Do not retry without fixing the problem. ", "refId": "c7wivh", "shouldRetry": false, "statusCode": 404}}
+2025-01-27 14:25:58,332 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8933103327569796/rows"}}
+2025-01-27 14:25:58,608 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/36666341281668"}}
+2025-01-27 14:25:58,974 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5699146929360772"}}
+2025-01-27 14:25:59,295 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6121187595734916"}}
+2025-01-27 14:25:59,578 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2741696873844612"}}
+2025-01-27 14:25:59,864 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5030643859672964"}}
+2025-01-27 14:26:00,141 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5505546983526276"}}
+2025-01-27 14:26:00,539 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/453342593503108"}}
+2025-01-27 14:26:00,843 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1914353028648836"}}
+2025-01-27 14:26:01,147 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7497088958943108"}}
+2025-01-27 14:26:01,394 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2543071816273796"}}
+2025-01-27 14:26:01,675 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1617587968364420"}}
+2025-01-27 14:26:01,960 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8390165399555972"}}
+2025-01-27 14:26:02,294 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/197431262138244"}}
+2025-01-27 14:26:02,574 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2805949584592772"}}
+2025-01-27 14:26:02,875 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2632849517662084"}}
+2025-01-27 14:26:03,156 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7309549211963268"}}
+2025-01-27 14:26:03,441 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5046281835597700"}}
+2025-01-27 14:26:03,726 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2292383165140868"}}
+2025-01-27 14:26:04,000 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5076926427254660"}}
+2025-01-27 14:26:04,311 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5110908208500612"}}
+2025-01-27 14:26:04,638 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4672787184570244"}}
+2025-01-27 14:26:04,886 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4471189539868548"}}
+2025-01-27 14:26:05,477 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6035525278322564"}}
+2025-01-27 14:26:07,129 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3490003774558084"}}
+2025-01-27 14:26:08,100 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1401858849460100"}}
+2025-01-27 14:26:08,396 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1401858849460100"}}
+2025-01-27 14:26:08,666 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5954831810252676"}}
+2025-01-27 14:26:08,965 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4380245259931524"}}
+2025-01-27 14:26:09,269 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3035814195842948"}}
+2025-01-27 14:26:09,570 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3446931686641540"}}
+2025-01-27 14:26:09,882 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2320585103200132"}}
+2025-01-27 14:26:10,200 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6182628285697924"}}
+2025-01-27 14:26:10,496 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4082037090635652"}}
+2025-01-27 14:26:10,753 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1720486903893892"}}
+2025-01-27 14:26:11,024 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/786344720682884"}}
+2025-01-27 14:26:11,318 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2451748354477956"}}
+2025-01-27 14:26:11,606 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3598311348981636"}}
+2025-01-27 14:26:11,862 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4796064716509060"}}
+2025-01-27 14:26:12,146 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3668559834075012"}}
+2025-01-27 14:26:12,472 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7576962893565828"}}
+2025-01-27 14:26:12,750 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8101910976352132"}}
+2025-01-27 14:26:13,047 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2420648496287620"}}
+2025-01-27 14:26:13,399 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8535908831678340"}}
+2025-01-27 14:26:13,692 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7047864530194308"}}
+2025-01-27 14:26:13,940 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/934485856046980"}}
+2025-01-27 14:26:14,217 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6404350045802372"}}
+2025-01-27 14:26:14,505 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3341351705857924"}}
+2025-01-27 14:26:14,816 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/344099651538820"}}
+2025-01-27 14:26:15,076 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3186285669732228"}}
+2025-01-27 14:26:15,377 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3718277498883972"}}
+2025-01-27 14:26:15,685 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8235706920947588"}}
+2025-01-27 14:26:15,950 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4714727091425156"}}
+2025-01-27 14:26:16,250 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3238907609042820"}}
+2025-01-27 14:26:16,539 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1542601685553028"}}
+2025-01-27 14:26:17,973 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/376276426641284"}}
+2025-01-27 14:26:22,937 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2626320076853124"}}
+2025-01-27 14:26:23,984 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3645553648816004"}}
+2025-01-27 14:26:24,731 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3983172438019972"}}
+2025-01-27 14:26:28,963 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6922502026514308"}}
+2025-01-27 14:26:35,292 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7594587098926980"}}
+2025-01-27 14:26:43,431 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2769148392198020"}}
+2025-01-27 14:26:44,555 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8334146107559812"}}
+2025-01-27 14:26:49,218 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/628210274357124"}}
+2025-01-27 14:26:51,212 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7788650901229444"}}
+2025-01-27 14:26:54,677 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7479844723969924"}}
+2025-01-27 14:26:55,422 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5418305407215492"}}
+2025-01-27 14:26:56,193 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8947657229684612"}}
+2025-01-27 14:26:56,464 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3276305017556868"}}
+2025-01-27 14:26:56,762 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3647465353858948"}}
+2025-01-27 14:26:57,016 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8947657229684612"}}
+2025-01-27 14:26:57,335 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3276305017556868"}}
+2025-01-27 14:26:57,594 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3647465353858948"}}
+2025-01-27 14:26:57,886 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2731656993525636"}}
+2025-01-27 14:26:58,196 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2731656993525636"}}
+2025-01-27 14:26:58,515 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8857234914103172"}}
+2025-01-27 14:26:58,794 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8857234914103172"}}
+2025-01-27 14:26:59,105 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/190443224518532"}}
+2025-01-27 14:26:59,401 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/190443224518532"}}
+2025-01-27 14:26:59,663 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2737468755365764"}}
+2025-01-27 14:26:59,937 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2737468755365764"}}
+2025-01-27 14:27:00,344 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6166948601614212"}}
+2025-01-27 14:27:00,691 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6166948601614212"}}
+2025-01-27 14:27:01,004 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2649473465405316"}}
+2025-01-27 14:27:01,284 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2649473465405316"}}
+2025-01-27 14:27:01,576 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/977984936693636"}}
+2025-01-27 14:27:01,828 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/977984936693636"}}
+2025-01-27 14:27:02,119 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1574712660414340"}}
+2025-01-27 14:27:02,381 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1574712660414340"}}
+2025-01-27 14:27:02,668 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1799406021988228"}}
+2025-01-27 14:27:02,938 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1799406021988228"}}
+2025-01-27 14:27:03,239 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7254463714643844"}}
+2025-01-27 14:27:03,546 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7254463714643844"}}
+2025-01-27 14:27:03,956 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1230558407380868"}}
+2025-01-27 14:27:04,217 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1230558407380868"}}
+2025-01-27 14:27:04,565 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1042807133261700"}}
+2025-01-27 14:27:04,846 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1042807133261700"}}
+2025-01-27 14:27:05,199 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8906918022041476"}}
+2025-01-27 14:27:05,537 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8906918022041476"}}
+2025-01-27 14:27:05,801 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4449258438610820"}}
+2025-01-27 14:27:06,069 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4449258438610820"}}
+2025-01-27 14:27:06,344 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1782091263987588"}}
+2025-01-27 14:27:06,583 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1782091263987588"}}
+2025-01-27 14:27:06,865 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6461920110399364"}}
+2025-01-27 14:27:07,192 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6461920110399364"}}
+2025-01-27 14:27:07,450 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8247956490637188"}}
+2025-01-27 14:27:07,762 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8247956490637188"}}
+2025-01-27 14:27:08,040 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1421226232729476"}}
+2025-01-27 14:27:08,312 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1421226232729476"}}
+2025-01-27 14:27:08,584 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5394012462600068"}}
+2025-01-27 14:27:08,848 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5394012462600068"}}
+2025-01-27 14:27:09,118 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6980219583811460"}}
+2025-01-27 14:27:09,397 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6980219583811460"}}
+2025-01-27 14:27:09,658 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1096099087470468"}}
+2025-01-27 14:27:09,886 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1096099087470468"}}
+2025-01-27 14:27:10,198 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3014145582518148"}}
+2025-01-27 14:27:10,465 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3014145582518148"}}
+2025-01-27 14:27:10,796 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4860345864638340"}}
+2025-01-27 14:27:11,111 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4860345864638340"}}
+2025-01-27 14:27:11,451 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6068804706586500"}}
+2025-01-27 14:27:11,697 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6068804706586500"}}
+2025-01-27 14:27:11,962 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7575306093154180"}}
+2025-01-27 14:27:12,266 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7575306093154180"}}
+2025-01-27 14:27:12,532 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4622961143140228"}}
+2025-01-27 14:27:12,828 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4622961143140228"}}
+2025-01-27 14:27:13,111 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7025436999503748"}}
+2025-01-27 14:27:13,362 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7025436999503748"}}
+2025-01-27 14:27:13,633 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1280437204766596"}}
+2025-01-27 14:27:13,948 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1280437204766596"}}
+2025-01-27 14:27:14,252 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3560008339902340"}}
+2025-01-27 14:27:14,528 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3560008339902340"}}
+2025-01-27 14:27:14,864 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4165109039452036"}}
+2025-01-27 14:27:15,212 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4165109039452036"}}
+2025-01-27 14:27:15,592 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8650411837706116"}}
+2025-01-27 14:27:16,275 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8650411837706116"}}
+2025-01-27 14:27:16,903 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8650411837706116"}}
+2025-01-27 14:27:17,655 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8650411837706116"}}
+2025-01-27 14:27:18,380 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8650411837706116"}}
+2025-01-27 14:27:18,984 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8650411837706116"}}
+2025-01-27 14:27:19,660 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2667656981204868"}}
+2025-01-27 14:27:19,913 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2886875500990340"}}
+2025-01-27 14:27:20,191 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/924946788208516"}}
+2025-01-27 14:27:20,493 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5490690834255748"}}
+2025-01-27 14:27:20,797 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/985476299181956"}}
+2025-01-27 14:27:21,047 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2463563524296580"}}
+2025-01-27 14:27:21,577 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1760666356502404"}}
+2025-01-27 14:27:21,845 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5207910187487108"}}
+2025-01-27 14:27:22,124 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3133440983519108"}}
+2025-01-27 14:27:22,422 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4857269057441668"}}
+2025-01-27 14:27:22,811 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1729875007563652"}}
+2025-01-27 14:27:23,172 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5321242395496324"}}
+2025-01-27 14:27:23,450 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/994817124657028"}}
+2025-01-27 14:27:23,737 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2752781152636804"}}
+2025-01-27 14:27:24,041 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/322500124010372"}}
+2025-01-27 14:27:24,336 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1356487730718596"}}
+2025-01-27 14:27:24,886 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4520950914934660"}}
+2025-01-27 14:27:25,162 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8163701657233284"}}
+2025-01-27 14:27:25,489 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3217342441252740"}}
+2025-01-27 14:27:25,807 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7456681320834948"}}
+2025-01-27 14:27:26,082 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8704528770983812"}}
+2025-01-27 14:27:26,366 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6399164992671620"}}
+2025-01-27 14:27:26,634 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2129444405045124"}}
+2025-01-27 14:27:26,941 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7344479149182852"}}
+2025-01-27 14:27:27,282 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5229208201914244"}}
+2025-01-27 14:27:27,594 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3204182661457796"}}
+2025-01-27 14:27:27,857 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1671703970506628"}}
+2025-01-27 14:27:28,142 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6389055530264452"}}
+2025-01-27 14:27:28,442 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/196606042630020"}}
+2025-01-27 14:27:28,705 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7697589440827268"}}
+2025-01-27 14:27:28,982 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1731147952246660"}}
+2025-01-27 14:27:29,267 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7028490261292932"}}
+2025-01-27 14:27:29,578 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3611249419282308"}}
+2025-01-27 14:27:29,876 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6192689625491332"}}
+2025-01-27 14:27:30,165 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3381204033529732"}}
+2025-01-27 14:27:30,425 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2255304126687108"}}
+2025-01-27 14:27:30,754 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/478283703472004"}}
+2025-01-27 14:27:31,125 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/110554785992580"}}
+2025-01-27 14:27:31,425 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5812034817970052"}}
+2025-01-27 14:27:31,693 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5469142254937988"}}
+2025-01-27 14:27:31,974 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8933727132405636"}}
+2025-01-27 14:27:32,405 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8972117581555588"}}
+2025-01-27 14:27:32,721 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/674618722805636"}}
+2025-01-27 14:27:33,024 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4516174911301508"}}
+2025-01-27 14:27:33,423 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1762448039536516"}}
+2025-01-27 14:27:33,709 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8720385100959620"}}
+2025-01-27 14:27:34,069 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2228353206904708"}}
+2025-01-27 14:27:34,385 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8692704189147012"}}
+2025-01-27 14:27:34,732 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2729880833025924"}}
+2025-01-27 14:27:35,012 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4981680646711172"}}
+2025-01-27 14:27:35,289 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/111668769384324"}}
+2025-01-27 14:27:35,563 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5391643419037572"}}
+2025-01-27 14:27:35,856 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6183412496131972"}}
+2025-01-27 14:27:36,150 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6552384100585348"}}
+2025-01-27 14:27:36,634 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7202788052258692"}}
+2025-01-27 14:27:36,891 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/258028369930116"}}
+2025-01-27 14:27:37,189 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8771250551056260"}}
+2025-01-27 14:27:37,492 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3916836131262340"}}
+2025-01-27 14:27:37,769 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6677249537298308"}}
+2025-01-27 14:27:38,068 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3489368489912196"}}
+2025-01-27 14:27:38,366 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4515770293768068"}}
+2025-01-27 14:27:38,668 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3641960088004484"}}
+2025-01-27 14:27:38,972 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5013532124178308"}}
+2025-01-27 14:27:39,542 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/92093498216324"}}
+2025-01-27 14:27:39,888 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4370695779051396"}}
+2025-01-27 14:27:40,159 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6237632163276676"}}
+2025-01-27 14:27:40,442 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2421994683322244"}}
+2025-01-27 14:27:40,715 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1148656065400708"}}
+2025-01-27 14:27:41,012 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1071651596750724"}}
+2025-01-27 14:27:41,331 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7474283898949508"}}
+2025-01-27 14:27:41,673 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5432490806169476"}}
+2025-01-27 14:27:42,021 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6803856683913092"}}
+2025-01-27 14:27:42,334 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1262661677305732"}}
+2025-01-27 14:27:42,616 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5208461017042820"}}
+2025-01-27 14:27:42,901 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6047598842433412"}}
+2025-01-27 14:27:43,282 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5721662364274564"}}
+2025-01-27 14:27:43,565 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2062118299848580"}}
+2025-01-27 14:27:43,890 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4858373937778564"}}
+2025-01-27 14:27:44,149 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2483368692240260"}}
+2025-01-27 14:27:44,469 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4620050497490820"}}
+2025-01-27 14:27:44,784 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3108535541911428"}}
+2025-01-27 14:27:45,097 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7023277973131140"}}
+2025-01-27 14:27:45,437 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1982704354545540"}}
+2025-01-27 14:27:45,731 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6529021726642052"}}
+2025-01-27 14:27:46,048 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/639403940597636"}}
+2025-01-27 14:27:46,316 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2890688358207364"}}
+2025-01-27 14:27:46,609 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2186519880093572"}}
+2025-01-27 14:27:46,951 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/4720911361986436"}}
+2025-01-27 14:27:47,240 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/5942058611068804"}}
+2025-01-27 14:27:47,576 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/2817693241528196"}}
+2025-01-27 14:27:47,887 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/7715495549554564"}}
+2025-01-27 14:27:48,299 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/6375545637916548/rows"}}
+2025-01-27 14:27:48,308 - INFO - Script executed successfully.

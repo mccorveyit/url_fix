@@ -1,0 +1,5 @@
+2025-01-30 09:03:35,987 - INFO - Script started.
+2025-01-30 09:03:37,252 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-01-30 09:03:37,626 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-01-30 09:03:37,950 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-01-30 09:03:37,955 - INFO - Script executed successfully.
