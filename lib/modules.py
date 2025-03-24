@@ -183,17 +183,7 @@ def process_src_sheet(src_sheet, columns, statuses, responses, permalinks, versi
         update_row(dest_sheet=src_sheet, row_values={"Version": version}, dest_sheet_map=columns, row_id=src_row_id)
 
 def process_dest_rows(dest_sheet, dest_columns, perm_sheet_id_value, target_column_value, statuses, responses, permalinks, src_row_id):
-    rows_to_update = []
-    versions_to_update = []
-
     for dest_row in dest_sheet.rows: 
-        try:
-            
-            rows_to_update.append(dest_row.version)
-            process_dest_rows(rows_to_update, dest_columns, perm_sheet_id_value, target_column_value, statuses, responses, permalinks, src_row_id)
-        except Exception as e:
-            print(f"Error processing destination rows (versions): {e}")
-
         try:
             perm_src_sheet_id = next((cell.display_value for cell in dest_row.cells if cell.column_id == dest_columns[perm_sheet_id_value]), None)
             print(f"Permalink Source Sheet ID: {perm_src_sheet_id}")
