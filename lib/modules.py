@@ -37,6 +37,11 @@ def get_permalink(entity, default):
         return entity.permalink
     return default
 
+def get_version(entity, default):
+    if entity and hasattr(entity, "version"):
+        return entity.version
+    return default
+
 def get_cell_by_name(row, column_name, tbl_colmn_map):
     column_id = tbl_colmn_map.get(column_name)
     if column_id is None:
@@ -121,23 +126,29 @@ def update_status(row_id, status, columns):
     row_values = {"Status": status}
     update_row(dest_sheet=src_sheet, row_values=row_values, dest_sheet_map=columns, row_id=row_id)
 
-def process_src_sheet(src_sheet, columns, statuses, responses, permalinks):
+def process_src_sheet(src_sheet, columns, statuses, responses, permalinks, version):
     for src_row in src_sheet.rows:
         perm_sheet_id_value = get_cell_by_name(src_row, "Id_source", columns)
         target_column_value = get_cell_by_name(src_row, "url_target_column", columns)
         sheet_id_value = get_cell_by_name(src_row, "Sheet ID", columns)
         enable_value = get_cell_by_name(src_row, "Enable", columns)
+        old_version = get_cell_by_name(src_row, "Version", columns)
         src_row_id = src_row.id
 
         if enable_value is not True:
             continue
-
         # Get the destination sheet ID and fetch the destination sheet or error
         dest_sheet_id = sheet_id_value
         try:
             dest_sheet = get_sheet_or_report(dest_sheet_id)
+            version = get_version(dest_sheet, "Version Error" )
+            if old_version is None or version == "":
+                update_row(dest_sheet=src_sheet, row_values={"Version": version}, dest_sheet_map=columns, row_id=src_row_id)
             if not dest_sheet or hasattr(dest_sheet, 'message') and dest_sheet.message == '1006: Not Found':
                 update_status(src_row_id, "Sheet or Report Not Found", columns)
+                continue
+            print(f"{str(dest_sheet.version)} == {str(old_version)}")
+            if str(dest_sheet.version) == str(old_version):
                 continue
 
             dest_columns = get_dest_sheet_columns(ss, dest_sheet_id)
@@ -169,23 +180,34 @@ def process_src_sheet(src_sheet, columns, statuses, responses, permalinks):
             permalinks.clear()
             update_status(src_row_id, status, columns)
         statuses = []
+        update_row(dest_sheet=src_sheet, row_values={"Version": version}, dest_sheet_map=columns, row_id=src_row_id)
 
 def process_dest_rows(dest_sheet, dest_columns, perm_sheet_id_value, target_column_value, statuses, responses, permalinks, src_row_id):
+    rows_to_update = []
+    versions_to_update = []
+
     for dest_row in dest_sheet.rows: 
-            try:
-                perm_src_sheet_id = next((cell.display_value for cell in dest_row.cells if cell.column_id == dest_columns[perm_sheet_id_value]), None)
-                print(f"Permalink Source Sheet ID: {perm_src_sheet_id}")
-                if perm_src_sheet_id == None:
-                    continue
+        try:
+            
+            rows_to_update.append(dest_row.version)
+            process_dest_rows(rows_to_update, dest_columns, perm_sheet_id_value, target_column_value, statuses, responses, permalinks, src_row_id)
+        except Exception as e:
+            print(f"Error processing destination rows (versions): {e}")
 
-                # dest_row_id = dest_row.id
-                perm_src_sheet = get_sheet_or_report(perm_src_sheet_id)
-                process_permalink(perm_src_sheet, dest_sheet, dest_columns, dest_row, target_column_value, permalinks, responses, statuses)
-            except KeyError:
+        try:
+            perm_src_sheet_id = next((cell.display_value for cell in dest_row.cells if cell.column_id == dest_columns[perm_sheet_id_value]), None)
+            print(f"Permalink Source Sheet ID: {perm_src_sheet_id}")
+            if perm_src_sheet_id == None:
                 continue
 
-            except:
-                continue
+            # dest_row_id = dest_row.id
+            perm_src_sheet = get_sheet_or_report(perm_src_sheet_id)
+            process_permalink(perm_src_sheet, dest_sheet, dest_columns, dest_row, target_column_value, permalinks, responses, statuses)
+        except KeyError:
+            continue
+
+        except:
+            continue
             
 def update_rows(sheet_id):
     columns = get_src_sheet_columns(ss, sheet_id)
@@ -196,7 +218,7 @@ def update_rows(sheet_id):
     dest_sheet = None
     row_id = None
 
-    process_src_sheet(src_sheet, columns, statuses, responses, permalinks)
+    process_src_sheet(src_sheet, columns, statuses, responses, permalinks, version=None)
 
     return responses
 

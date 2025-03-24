@@ -1,0 +1,14 @@
+2025-03-21 12:57:55,092 - INFO - Script started.
+2025-03-21 12:57:56,349 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-03-21 12:57:56,657 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-03-21 12:57:57,031 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-03-21 12:57:57,435 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8933103327569796"}}
+2025-03-21 12:57:57,722 - ERROR - ImportError! Could not load api or model class __iter__
+2025-03-21 12:58:03,894 - ERROR - ImportError! Could not load api or model class __iter__
+2025-03-21 12:58:14,641 - ERROR - ImportError! Could not load api or model class __iter__
+2025-03-21 12:58:20,991 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8933103327569796"}}
+2025-03-21 12:58:22,189 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1321399974422404"}}
+2025-03-21 12:58:25,016 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/3343337609553796"}}
+2025-03-21 12:58:25,016 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-03-21 12:58:25,645 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/3343337609553796"}}
+2025-03-21 12:58:26,608 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/1321399974422404"}}

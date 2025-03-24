@@ -1,0 +1,12 @@
+2025-03-21 13:05:21,089 - INFO - Script started.
+2025-03-21 13:05:22,965 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-03-21 13:05:23,299 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-03-21 13:05:23,790 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-03-21 13:05:24,257 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8933103327569796"}}
+2025-03-21 13:05:24,532 - ERROR - ImportError! Could not load api or model class __iter__
+2025-03-21 13:05:26,996 - ERROR - ImportError! Could not load api or model class __iter__
+2025-03-21 13:05:28,667 - ERROR - ImportError! Could not load api or model class __iter__
+2025-03-21 13:05:30,398 - ERROR - ImportError! Could not load api or model class __iter__
+2025-03-21 13:05:54,454 - ERROR - ImportError! Could not load api or model class __iter__
+2025-03-21 13:06:30,781 - ERROR - ImportError! Could not load api or model class __iter__
+2025-03-21 13:06:35,743 - ERROR - ImportError! Could not load api or model class __iter__
