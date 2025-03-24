@@ -132,7 +132,6 @@ def process_src_sheet(src_sheet, columns, statuses, responses, permalinks, versi
         target_column_value = get_cell_by_name(src_row, "url_target_column", columns)
         sheet_id_value = get_cell_by_name(src_row, "Sheet ID", columns)
         enable_value = get_cell_by_name(src_row, "Enable", columns)
-        old_version = get_cell_by_name(src_row, "Version", columns)
         src_row_id = src_row.id
 
         if enable_value is not True:
@@ -141,14 +140,8 @@ def process_src_sheet(src_sheet, columns, statuses, responses, permalinks, versi
         dest_sheet_id = sheet_id_value
         try:
             dest_sheet = get_sheet_or_report(dest_sheet_id)
-            version = get_version(dest_sheet, "Version Error" )
-            if old_version is None or version == "":
-                update_row(dest_sheet=src_sheet, row_values={"Version": version}, dest_sheet_map=columns, row_id=src_row_id)
             if not dest_sheet or hasattr(dest_sheet, 'message') and dest_sheet.message == '1006: Not Found':
                 update_status(src_row_id, "Sheet or Report Not Found", columns)
-                continue
-            print(f"{str(dest_sheet.version)} == {str(old_version)}")
-            if str(dest_sheet.version) == str(old_version):
                 continue
 
             dest_columns = get_dest_sheet_columns(ss, dest_sheet_id)
@@ -180,7 +173,6 @@ def process_src_sheet(src_sheet, columns, statuses, responses, permalinks, versi
             permalinks.clear()
             update_status(src_row_id, status, columns)
         statuses = []
-        update_row(dest_sheet=src_sheet, row_values={"Version": version}, dest_sheet_map=columns, row_id=src_row_id)
 
 def process_dest_rows(dest_sheet, dest_columns, perm_sheet_id_value, target_column_value, statuses, responses, permalinks, src_row_id):
     for dest_row in dest_sheet.rows: 
