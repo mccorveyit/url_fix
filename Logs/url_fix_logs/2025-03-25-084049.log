@@ -1,0 +1,17 @@
+2025-03-25 08:40:49,625 - INFO - Script started.
+2025-03-25 08:40:50,908 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-03-25 08:40:51,300 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-03-25 08:40:51,653 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-03-25 08:40:52,076 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8286888007782276"}}
+2025-03-25 08:40:52,486 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8286888007782276"}}
+2025-03-25 08:41:04,513 - ERROR - ImportError! Could not load api or model class __iter__
+2025-03-25 08:41:18,876 - ERROR - ImportError! Could not load api or model class __iter__
+2025-03-25 08:41:24,421 - ERROR - ImportError! Could not load api or model class __iter__
+2025-03-25 08:41:31,519 - ERROR - ImportError! Could not load api or model class __iter__
+2025-03-25 08:41:32,519 - ERROR - ImportError! Could not load api or model class __iter__
+2025-03-25 08:42:49,355 - ERROR - ImportError! Could not load api or model class __iter__
+2025-03-25 08:45:23,911 - ERROR - ImportError! Could not load api or model class __iter__
+2025-03-25 08:45:31,055 - ERROR - ImportError! Could not load api or model class __iter__
+2025-03-25 08:45:34,234 - ERROR - ImportError! Could not load api or model class __iter__
+2025-03-25 08:45:35,600 - ERROR - ImportError! Could not load api or model class __iter__
+2025-03-25 08:50:09,075 - ERROR - ImportError! Could not load api or model class __iter__
