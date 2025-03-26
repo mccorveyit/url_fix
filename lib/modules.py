@@ -21,7 +21,6 @@ src_sheet = ss.Sheets.get_sheet(src_sheet_id)
 statuses = []
 responses = []
 permalinks = []
-workspaces = []
 
 def get_src_sheet_columns(ss, sheet_id):
     sheet = ss.Sheets.get_sheet(sheet_id)
@@ -157,7 +156,7 @@ def process_src_sheet(src_sheet, columns, statuses, responses, permalinks, versi
                 update_status(src_row_id, "Wrong url_target_column", columns)
                 update_row(dest_sheet=src_sheet, row_values={"url_target_column": ""}, dest_sheet_map=columns, row_id=src_row_id)
                 continue
-            process_dest_rows(dest_sheet, dest_columns, perm_sheet_id_value, target_column_value, statuses, responses, permalinks, workspaces, src_row_id)
+            process_dest_rows(dest_sheet, dest_columns, perm_sheet_id_value, target_column_value, statuses, responses, permalinks, src_row_id)
         except:
             continue
         all_done = all(status == "Done" for status in statuses)
@@ -175,63 +174,21 @@ def process_src_sheet(src_sheet, columns, statuses, responses, permalinks, versi
             update_status(src_row_id, status, columns)
         statuses = []
 
-def process_dest_rows(dest_sheet, dest_columns, perm_sheet_id_value, target_column_value, statuses, responses, permalinks, src_row_id, workspaces=[]):
+def process_dest_rows(dest_sheet, dest_columns, perm_sheet_id_value, target_column_value, statuses, responses, permalinks, src_row_id):
     for dest_row in dest_sheet.rows: 
         try:
-            # Retrieve the relevant values from the row
             perm_src_sheet_id = next((cell.display_value for cell in dest_row.cells if cell.column_id == dest_columns[perm_sheet_id_value]), None)
-            last_known_in_id = next((cell.display_value for cell in dest_row.cells if cell.column_id == dest_columns['last_known_in_id']), None)
-            last_known_out_sheet_id = next((cell.display_value for cell in dest_row.cells if cell.column_id == dest_columns['last_known_out_sheet_id']), None)
-
             print(f"Permalink Source Sheet ID: {perm_src_sheet_id}")
+            if perm_src_sheet_id == None:
+                continue
 
-            if perm_src_sheet_id is None:
-                continue  # Skip row if no source sheet ID is found
-
-            # Check if perm_sheet_id is the last known ID
-            if perm_sheet_id_value == 'In Id' and last_known_in_id == perm_src_sheet_id:
-                continue  # No update needed, move to the next row
-            if perm_sheet_id_value == 'Out Id' and last_known_out_sheet_id == perm_src_sheet_id:
-                continue  # No update needed, move to the next row
-
-            # Check if the sheet is in any stored workspaces
-            permalink = None
-            workspaces = []
-            for workspace in workspaces:
-                if perm_src_sheet_id in workspace:
-                    permalink = get_permalink()
-                    break  # Stop checking once we find it
-
-            # If the sheet is not in a workspace, fetch and store it
-            if not permalink:
-                perm_src_sheet = get_sheet_or_report(perm_src_sheet_id)
-                if not perm_src_sheet:
-                    continue  # Skip if the sheet couldn't be retrieved
-
-                workspace_id = perm_src_sheet._workspace.value.id
-                workspace = ss.Workspaces.get_workspace(workspace_id)
-                pdb.set_trace()
-                # Add the new workspace and its sheets to the workspaces list
-                workspaces.append(workspace)
-
-                # Get permalink
-                permalink = get_permalink()
-
-            # Update the row with the new permalink and last known ID
-            update_row(dest_sheet, {target_column_value: permalink, 
-                                    'last_known_in_id' if perm_sheet_id_value == 'In Id' else 'last_known_out_sheet_id': perm_src_sheet_id}, 
-                        dest_columns, dest_row.id)
-
-            print(f"Updated row {dest_row.id} with permalink: {permalink}")
-
-            # Process additional permalink updates
+            # dest_row_id = dest_row.id
+            perm_src_sheet = get_sheet_or_report(perm_src_sheet_id)
             process_permalink(perm_src_sheet, dest_sheet, dest_columns, dest_row, target_column_value, permalinks, responses, statuses)
-
-        except KeyError as e:
-            print(f"KeyError: {e}")
+        except KeyError:
             continue
-        except Exception as e:
-            print(f"Unexpected error: {e}")
+
+        except:
             continue
             
 def update_rows(sheet_id):
