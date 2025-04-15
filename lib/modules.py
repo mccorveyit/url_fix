@@ -6,6 +6,7 @@ import smartsheet
 import os
 import pdb
 import logging
+from helper import get_permalink
 
 
 
@@ -32,10 +33,10 @@ def get_dest_sheet_columns(ss, sheet_id):
     column_info = {str(column.title): column.id for column in sheet.columns}
     return column_info
 
-def get_permalink(entity, default):
-    if entity and hasattr(entity, "permalink"):
-        return entity.permalink
-    return default
+# def get_permalink(entity, default):
+#     if entity and hasattr(entity, "permalink"):
+#         return entity.permalink
+#     return default
 
 def get_version(entity, default):
     if entity and hasattr(entity, "version"):
@@ -56,17 +57,24 @@ def get_cell_by_name(row, column_name, tbl_colmn_map):
         return None
     return c_value
     
-
-def get_sheet_or_report(sheet_id):
+def get_sheet(sheet_id):
     try:
         sheet = ss.Sheets.get_sheet(sheet_id)
-    except:
-        try:
-            sheet = ss.Reports.get_report(sheet_id)
-        except Exception as e:
-            logger.error(f"GET_SHEET_OR_REPORT NONE Error: {e}")
-            return None
+    except Exception as e:
+        logger.error(f"GET_SHEET Error: {e}")
+        return None
     return sheet
+
+# def get_sheet_or_report(sheet_id):
+#     try:
+#         sheet = ss.Sheets.get_sheet(sheet_id)
+#     except:
+#         try:
+#             sheet = ss.Reports.get_report(sheet_id)
+#         except Exception as e:
+#             logger.error(f"GET_SHEET_OR_REPORT NONE Error: {e}")
+#             return None
+#     return sheet
 
 def update_row(dest_sheet,row_values,dest_sheet_map,row_id):
     row = ss.models.Row()
@@ -80,19 +88,34 @@ def update_row(dest_sheet,row_values,dest_sheet_map,row_id):
     response = ss.Sheets.update_rows(dest_sheet.id, [row])
     return response
 
-def process_permalink(perm_src_sheet, dest_sheet, dest_columns, dest_row, target_column_value, permalinks, responses, statuses):
+def process_permalink(perm_src_sheet_id, dest_sheet, dest_columns, dest_row, target_column_value, permalinks, responses, statuses):
     try:
-        if hasattr(perm_src_sheet, 'error'):
-            permalink = get_permalink(perm_src_sheet, "Error Processing")
-            status = "Error Processing"
-            statuses.append(status)
-            update_row(dest_sheet=dest_sheet, row_values={target_column_value: ""}, dest_sheet_map=dest_columns, row_id=dest_row.id)
-        elif hasattr(perm_src_sheet, "permalink"):
-            permalink = perm_src_sheet.permalink
-            status = "Done"
+        if perm_src_sheet_id == None:
+            return
+        elif perm_src_sheet_id != "":
+            permalink = get_permalink(perm_src_sheet_id)
+            print(f"Permalink: {permalink}")
+            if permalink is None:
+                permalink = "Permalink Not Found"
+                status = "Error Processing"
+                statuses.append(status)
+                update_row(dest_sheet=dest_sheet, row_values={target_column_value: ""}, dest_sheet_map=dest_columns, row_id=dest_row.id)
+            else:
+                status = "Done"
+                statuses.append(status)
+                print(f"Permalink: {permalink}")
+
             if permalink != get_cell_by_name(dest_row, target_column_value, dest_columns):
                 update_permalinks(dest_sheet=dest_sheet, dest_columns=dest_columns, permalinks=permalinks, responses=responses, permalink=permalink, dest_row=dest_row, target_column_value=target_column_value)
             statuses.append(status)
+        # if hasattr(perm_src_sheet, 'error'):
+        #     permalink = get_permalink(perm_src_sheet)
+        #     status = "Error Processing"
+        #     statuses.append(status)
+        #     update_row(dest_sheet=dest_sheet, row_values={target_column_value: ""}, dest_sheet_map=dest_columns, row_id=dest_row.id)
+        # elif hasattr(perm_src_sheet, "permalink"):
+        #     permalink = perm_src_sheet.permalink
+        #     status = "Done"
         else:
             permalink = "Permalink Not Found"
             status = "Error Processing"
@@ -113,7 +136,7 @@ def update_permalinks(dest_sheet, dest_columns, permalinks, responses, permalink
         permalink_row.cells.append(cell)
         permalinks.append(permalink_row)
 
-        if len(permalinks) >= 200:
+        if len(permalinks) >= 2:
             response = ss.Sheets.update_rows(dest_sheet.id, permalinks)
             responses.append(response)
             permalinks.clear()
@@ -126,7 +149,7 @@ def update_status(row_id, status, columns):
     row_values = {"Status": status}
     update_row(dest_sheet=src_sheet, row_values=row_values, dest_sheet_map=columns, row_id=row_id)
 
-def process_src_sheet(src_sheet, columns, statuses, responses, permalinks, version):
+def process_src_sheet(src_sheet, columns, statuses, responses, permalinks):
     for src_row in src_sheet.rows:
         perm_sheet_id_value = get_cell_by_name(src_row, "Id_source", columns)
         target_column_value = get_cell_by_name(src_row, "url_target_column", columns)
@@ -139,7 +162,7 @@ def process_src_sheet(src_sheet, columns, statuses, responses, permalinks, versi
         # Get the destination sheet ID and fetch the destination sheet or error
         dest_sheet_id = sheet_id_value
         try:
-            dest_sheet = get_sheet_or_report(dest_sheet_id)
+            dest_sheet = get_sheet(dest_sheet_id)
             if not dest_sheet or hasattr(dest_sheet, 'message') and dest_sheet.message == '1006: Not Found':
                 update_status(src_row_id, "Sheet or Report Not Found", columns)
                 continue
@@ -183,8 +206,8 @@ def process_dest_rows(dest_sheet, dest_columns, perm_sheet_id_value, target_colu
                 continue
 
             # dest_row_id = dest_row.id
-            perm_src_sheet = get_sheet_or_report(perm_src_sheet_id)
-            process_permalink(perm_src_sheet, dest_sheet, dest_columns, dest_row, target_column_value, permalinks, responses, statuses)
+            # perm_src_sheet = get_sheet_or_report(perm_src_sheet_id)
+            process_permalink(perm_src_sheet_id, dest_sheet, dest_columns, dest_row, target_column_value, permalinks, responses, statuses)
         except KeyError:
             continue
 
@@ -200,7 +223,7 @@ def update_rows(sheet_id):
     dest_sheet = None
     row_id = None
 
-    process_src_sheet(src_sheet, columns, statuses, responses, permalinks, version=None)
+    process_src_sheet(src_sheet, columns, statuses, responses, permalinks)
 
     return responses
 

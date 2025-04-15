@@ -1,0 +1,18 @@
+2025-04-15 15:10:11,347 - INFO - Script started.
+2025-04-15 15:10:12,497 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-04-15 15:10:12,825 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-04-15 15:10:13,133 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-04-15 15:10:13,599 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8286888007782276"}}
+2025-04-15 15:10:13,938 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8286888007782276"}}
+2025-04-15 15:10:14,062 - INFO - No permalink found for sheet ID 1321399974422404
+2025-04-15 15:10:14,865 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 15:10:14,888 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-15 15:10:24,430 - INFO - No permalink found for sheet ID 1321399974422404
+2025-04-15 15:10:33,050 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 15:10:33,073 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-15 15:14:07,910 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 15:14:07,913 - INFO - Updated 200 permalinks
+2025-04-15 15:14:07,961 - INFO - No permalink found for sheet ID 1321399974422404
+2025-04-15 15:14:08,353 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 15:14:08,394 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-15 15:31:15,767 - ERROR - ImportError! Could not load api or model class __iter__

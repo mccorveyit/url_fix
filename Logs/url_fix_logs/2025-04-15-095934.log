@@ -1,0 +1,14 @@
+2025-04-15 09:59:34,535 - INFO - Script started.
+2025-04-15 09:59:35,673 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-04-15 09:59:36,021 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-04-15 09:59:36,346 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-04-15 09:59:36,566 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8286888007782276"}}
+2025-04-15 09:59:36,566 - ERROR - {"response": {"statusCode": 500, "reason": "Internal Server Error", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-04-15 09:59:36,713 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/reports/8286888007782276"}}
+2025-04-15 09:59:36,713 - ERROR - {"response": {"statusCode": 404, "reason": "Not Found", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-04-15 09:59:36,714 - ERROR - GET_SHEET_OR_REPORT NONE Error: {"result": {"code": 1006, "errorCode": 1006, "message": "Not Found", "name": "ApiError", "recommendation": "Do not retry without fixing the problem. ", "refId": "easz1p", "shouldRetry": false, "statusCode": 404}}
+2025-04-15 09:59:41,286 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/6375545637916548/rows"}}
+2025-04-15 09:59:41,661 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8286888007782276"}}
+2025-04-15 09:59:41,989 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8286888007782276"}}
+2025-04-15 09:59:41,989 - ERROR - {"response": {"statusCode": 500, "reason": "Internal Server Error", "content": "<< application/json;charset=UTF-8 content type suppressed >>"}}
+2025-04-15 09:59:41,990 - INFO - Script executed successfully.

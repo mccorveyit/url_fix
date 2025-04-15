@@ -1,0 +1,116 @@
+2025-04-15 13:54:25,807 - INFO - Script started.
+2025-04-15 13:54:26,965 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-04-15 13:54:27,296 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-04-15 13:54:27,615 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-04-15 13:54:28,004 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8286888007782276"}}
+2025-04-15 13:54:28,399 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8286888007782276"}}
+2025-04-15 13:54:32,603 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-15 13:54:38,157 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-15 13:54:38,852 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-15 13:54:39,699 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-15 13:54:40,529 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-15 13:54:41,414 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-15 13:54:42,188 - INFO - No permalink found for sheet ID 1321399974422404
+2025-04-15 13:54:42,227 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-15 13:54:43,849 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-15 13:54:48,277 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 13:54:48,485 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-15 13:55:14,298 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-15 13:55:17,277 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-15 13:55:17,752 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-15 13:55:18,582 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-15 13:55:19,305 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-15 13:55:20,570 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-15 13:55:21,472 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-15 13:55:26,813 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-15 13:55:31,297 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-15 13:55:53,265 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-15 14:02:05,129 - INFO - No permalink found for sheet ID 1321399974422404
+2025-04-15 14:02:05,704 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:02:05,728 - INFO - No permalink found for sheet ID 1321399974422404
+2025-04-15 14:02:06,124 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:02:06,147 - INFO - No permalink found for sheet ID 6626954460850052
+2025-04-15 14:02:07,007 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:02:07,070 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-15 14:02:09,375 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-15 14:02:10,595 - INFO - No permalink found for sheet ID 1321399974422404
+2025-04-15 14:02:12,077 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:02:12,121 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-15 14:02:15,355 - ERROR - Error retrieving permalink for sheet ID 838036346589060: ('22003', '[22003] [Microsoft][SQL Server Native Client 11.0][SQL Server]Arithmetic overflow error converting nvarchar to data type numeric. (8115) (SQLExecDirectW)')
+2025-04-15 14:02:16,784 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:02:16,788 - ERROR - Error retrieving permalink for sheet ID 514056393805700: ('22003', '[22003] [Microsoft][SQL Server Native Client 11.0][SQL Server]Arithmetic overflow error converting nvarchar to data type numeric. (8115) (SQLExecDirectW)')
+2025-04-15 14:02:19,206 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:02:19,212 - ERROR - Error retrieving permalink for sheet ID 119227404314500: ('22003', '[22003] [Microsoft][SQL Server Native Client 11.0][SQL Server]Arithmetic overflow error converting nvarchar to data type numeric. (8115) (SQLExecDirectW)')
+2025-04-15 14:02:20,605 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:02:20,608 - ERROR - Error retrieving permalink for sheet ID 119227404314500: ('22003', '[22003] [Microsoft][SQL Server Native Client 11.0][SQL Server]Arithmetic overflow error converting nvarchar to data type numeric. (8115) (SQLExecDirectW)')
+2025-04-15 14:02:21,618 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:02:21,640 - INFO - No permalink found for sheet ID 6830703011751812
+2025-04-15 14:02:22,465 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:02:22,490 - INFO - No permalink found for sheet ID 5416198482487172
+2025-04-15 14:02:22,812 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:02:22,835 - INFO - No permalink found for sheet ID 4071633200670596
+2025-04-15 14:02:25,391 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:02:25,414 - INFO - No permalink found for sheet ID 6253025107961732
+2025-04-15 14:02:27,887 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:02:27,910 - INFO - No permalink found for sheet ID 1201203477538692
+2025-04-15 14:02:28,474 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:02:28,496 - INFO - No permalink found for sheet ID 4035160338392964
+2025-04-15 14:02:28,883 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:02:28,909 - INFO - No permalink found for sheet ID 5033933884313476
+2025-04-15 14:02:29,300 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:02:29,323 - INFO - No permalink found for sheet ID 2610120080969604
+2025-04-15 14:02:31,681 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:02:31,768 - INFO - No permalink found for sheet ID 5213426365556612
+2025-04-15 14:02:33,116 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:02:33,138 - INFO - No permalink found for sheet ID 3136311461734276
+2025-04-15 14:02:33,703 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:02:33,716 - ERROR - Error retrieving permalink for sheet ID 313057659381636: ('22003', '[22003] [Microsoft][SQL Server Native Client 11.0][SQL Server]Arithmetic overflow error converting nvarchar to data type numeric. (8115) (SQLExecDirectW)')
+2025-04-15 14:02:36,312 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:02:36,336 - INFO - No permalink found for sheet ID 2010411554891652
+2025-04-15 14:02:38,734 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:02:38,760 - INFO - No permalink found for sheet ID 3524542145554308
+2025-04-15 14:02:40,147 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:02:40,169 - INFO - No permalink found for sheet ID 3999909125875588
+2025-04-15 14:02:41,510 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:02:41,533 - INFO - No permalink found for sheet ID 4236166686893956
+2025-04-15 14:02:42,385 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:02:42,406 - INFO - No permalink found for sheet ID 1928360499668868
+2025-04-15 14:02:44,885 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:02:44,909 - INFO - No permalink found for sheet ID 8598066753234820
+2025-04-15 14:02:46,227 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:02:46,250 - INFO - No permalink found for sheet ID 8598066753234820
+2025-04-15 14:02:48,834 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:02:48,837 - ERROR - Error retrieving permalink for sheet ID 856267943110532: ('22003', '[22003] [Microsoft][SQL Server Native Client 11.0][SQL Server]Arithmetic overflow error converting nvarchar to data type numeric. (8115) (SQLExecDirectW)')
+2025-04-15 14:02:51,287 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:02:51,290 - ERROR - Error retrieving permalink for sheet ID 856267943110532: ('22003', '[22003] [Microsoft][SQL Server Native Client 11.0][SQL Server]Arithmetic overflow error converting nvarchar to data type numeric. (8115) (SQLExecDirectW)')
+2025-04-15 14:02:53,655 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:02:53,680 - INFO - No permalink found for sheet ID 3522652359944068
+2025-04-15 14:02:58,134 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:02:58,157 - INFO - No permalink found for sheet ID 3522652359944068
+2025-04-15 14:02:59,681 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:02:59,705 - INFO - No permalink found for sheet ID 3204756060563332
+2025-04-15 14:03:02,067 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:03:02,090 - INFO - No permalink found for sheet ID 3204756060563332
+2025-04-15 14:03:02,935 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:03:02,960 - INFO - No permalink found for sheet ID 4552067932022660
+2025-04-15 14:03:03,438 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:03:03,465 - INFO - No permalink found for sheet ID 4552067932022660
+2025-04-15 14:03:05,893 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:03:05,942 - INFO - No permalink found for sheet ID 1321399974422404
+2025-04-15 14:03:07,322 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:03:07,344 - INFO - No permalink found for sheet ID 1321399974422404
+2025-04-15 14:03:07,868 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:03:07,892 - INFO - No permalink found for sheet ID 1321399974422404
+2025-04-15 14:03:09,228 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:03:09,270 - INFO - No permalink found for sheet ID 4823963378444164
+2025-04-15 14:03:09,773 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:03:09,796 - INFO - No permalink found for sheet ID 4823963378444164
+2025-04-15 14:03:10,586 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:03:10,608 - INFO - No permalink found for sheet ID 4823963378444164
+2025-04-15 14:03:11,513 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:03:12,096 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/6375545637916548/rows"}}
+2025-04-15 14:03:17,413 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/8286888007782276/rows"}}
+2025-04-15 14:03:17,857 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/6375545637916548/rows"}}
+2025-04-15 14:03:18,819 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8286888007782276"}}
+2025-04-15 14:03:19,246 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8286888007782276"}}
+2025-04-15 14:03:19,281 - ERROR - Error retrieving permalink for sheet ID 927699087714180: ('22003', '[22003] [Microsoft][SQL Server Native Client 11.0][SQL Server]Arithmetic overflow error converting nvarchar to data type numeric. (8115) (SQLExecDirectW)')
