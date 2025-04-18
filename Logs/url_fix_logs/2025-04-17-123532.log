@@ -1,0 +1,15 @@
+2025-04-17 12:35:32,361 - INFO - Script started.
+2025-04-17 12:35:33,517 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-04-17 12:35:33,842 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-04-17 12:35:34,182 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-04-17 12:35:34,538 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8286888007782276"}}
+2025-04-17 12:35:34,935 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8286888007782276"}}
+2025-04-17 12:35:35,175 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-17 12:35:37,463 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-17 12:35:38,679 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-17 12:35:52,761 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-17 12:35:54,602 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-17 12:35:55,730 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-17 12:40:25,615 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-17 12:40:29,773 - ERROR - Error retrieving permalinks: ('22003', '[22003] [Microsoft][SQL Server Native Client 11.0][SQL Server]Arithmetic overflow error converting nvarchar to data type numeric. (8115) (SQLExecDirectW)')
+2025-04-17 12:40:29,807 - ERROR - ImportError! Could not load api or model class __iter__

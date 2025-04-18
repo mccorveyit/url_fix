@@ -1,0 +1,11 @@
+2025-04-18 09:03:16,864 - INFO - Script started.
+2025-04-18 09:03:18,020 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-04-18 09:03:18,324 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-04-18 09:03:18,680 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-04-18 09:03:18,997 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8286888007782276"}}
+2025-04-18 09:03:19,414 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8286888007782276"}}
+2025-04-18 09:03:20,802 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/6375545637916548/rows"}}
+2025-04-18 09:03:21,137 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8286888007782276"}}
+2025-04-18 09:03:21,464 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8286888007782276"}}
+2025-04-18 09:03:23,079 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/6375545637916548/rows"}}
+2025-04-18 09:03:23,080 - INFO - Script executed successfully.

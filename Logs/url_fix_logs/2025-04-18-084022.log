@@ -1,0 +1,9 @@
+2025-04-18 08:40:22,185 - INFO - Script started.
+2025-04-18 08:40:23,316 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-04-18 08:40:23,651 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-04-18 08:40:23,997 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-04-18 08:40:24,370 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8286888007782276"}}
+2025-04-18 08:40:24,768 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8286888007782276"}}
+2025-04-18 08:40:25,375 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-18 08:40:31,090 - ERROR - Error retrieving data from SQL table: ('22003', '[22003] [Microsoft][SQL Server Native Client 11.0][SQL Server]Arithmetic overflow error converting nvarchar to data type numeric. (8115) (SQLExecDirectW)')
+2025-04-18 08:40:31,132 - ERROR - ImportError! Could not load api or model class __iter__

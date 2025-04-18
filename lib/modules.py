@@ -6,7 +6,7 @@ import smartsheet
 import os
 import pdb
 import logging
-from helper import get_permalink
+from helper import get_sheet_dict
 
 
 
@@ -88,45 +88,55 @@ def update_row(dest_sheet,row_values,dest_sheet_map,row_id):
     response = ss.Sheets.update_rows(dest_sheet.id, [row])
     return response
 
-def process_permalink(perm_src_sheet_id, dest_sheet, dest_columns, dest_row, target_column_value, permalinks, responses, statuses):
-    try:
-        if perm_src_sheet_id == None:
-            return
-        elif perm_src_sheet_id != "":
-            permalink = get_permalink(perm_src_sheet_id)
-            print(f"Permalink: {permalink}")
-            if permalink is None:
-                permalink = "Permalink Not Found"
-                status = "Error Processing"
-                statuses.append(status)
-                update_row(dest_sheet=dest_sheet, row_values={target_column_value: ""}, dest_sheet_map=dest_columns, row_id=dest_row.id)
-            else:
-                status = "Done"
-                statuses.append(status)
-                print(f"Permalink: {permalink}")
+# def process_permalink(perm_src_sheet_id, dest_sheet, dest_columns, dest_row, target_column_value, permalinks, responses, statuses):
+#     try:
+#         if perm_src_sheet_id == None:
+#             return
+#         elif perm_src_sheet_id != "":
 
-            if permalink != get_cell_by_name(dest_row, target_column_value, dest_columns):
-                update_permalinks(dest_sheet=dest_sheet, dest_columns=dest_columns, permalinks=permalinks, responses=responses, permalink=permalink, dest_row=dest_row, target_column_value=target_column_value)
-            statuses.append(status)
-        # if hasattr(perm_src_sheet, 'error'):
-        #     permalink = get_permalink(perm_src_sheet)
-        #     status = "Error Processing"
-        #     statuses.append(status)
-        #     update_row(dest_sheet=dest_sheet, row_values={target_column_value: ""}, dest_sheet_map=dest_columns, row_id=dest_row.id)
-        # elif hasattr(perm_src_sheet, "permalink"):
-        #     permalink = perm_src_sheet.permalink
-        #     status = "Done"
-        else:
-            permalink = "Permalink Not Found"
-            status = "Error Processing"
-            statuses.append(status)
-            update_row(dest_sheet=dest_sheet, row_values={target_column_value: ""}, dest_sheet_map=dest_columns, row_id=dest_row.id)
-            print(f"Error processing row {dest_row.rowNumber}")
-    except:
-        pass
+#             permalink = get_permalink(perm_src_sheet_id)
+#             print(f"Permalink: {permalink}")
+#             if permalink is None:
+#                 permalink = "Permalink Not Found"
+#                 status = "Error Processing"
+#                 statuses.append(status)
+#                 update_row(dest_sheet=dest_sheet, row_values={target_column_value: ""}, dest_sheet_map=dest_columns, row_id=dest_row.id)
+#             else:
+#                 status = "Done"
+#                 statuses.append(status)
+#                 print(f"Permalink: {permalink}")
+
+#             if permalink != get_cell_by_name(dest_row, target_column_value, dest_columns):
+#                 update_permalinks(dest_sheet=dest_sheet, dest_columns=dest_columns, permalinks=permalinks, responses=responses, permalink=permalink, dest_row=dest_row, target_column_value=target_column_value)
+#             statuses.append(status)
+#         # if hasattr(perm_src_sheet, 'error'):
+#         #     permalink = get_permalink(perm_src_sheet)
+#         #     status = "Error Processing"
+#         #     statuses.append(status)
+#         #     update_row(dest_sheet=dest_sheet, row_values={target_column_value: ""}, dest_sheet_map=dest_columns, row_id=dest_row.id)
+#         # elif hasattr(perm_src_sheet, "permalink"):
+#         #     permalink = perm_src_sheet.permalink
+#         #     status = "Done"
+#         else:
+#             permalink = "Permalink Not Found"
+#             status = "Error Processing"
+#             statuses.append(status)
+#             update_row(dest_sheet=dest_sheet, row_values={target_column_value: ""}, dest_sheet_map=dest_columns, row_id=dest_row.id)
+#             print(f"Error processing row {dest_row.rowNumber}")
+#     except:
+#         pass
     
 def update_permalinks(dest_sheet, dest_columns, permalinks, responses, permalink, dest_row, target_column_value):
-    try:    
+    try:
+        if not permalink or not dest_row.id or target_column_value not in dest_columns:
+            logger.error(f"Invalid data for permalink update: permalink={permalink}, row_id={dest_row.id}, target_column_value={target_column_value}")
+            return
+        
+        existing_row_ids = {row.id for row in permalinks}
+        if dest_row.id in existing_row_ids:
+            logger.warning(f"Duplicate row detected: {dest_row.id}")
+            return
+
         permalink_row = ss.models.Row()
         permalink_row.id = dest_row.id
         cell = ss.models.Cell()
@@ -136,7 +146,7 @@ def update_permalinks(dest_sheet, dest_columns, permalinks, responses, permalink
         permalink_row.cells.append(cell)
         permalinks.append(permalink_row)
 
-        if len(permalinks) >= 2:
+        if len(permalinks) >= 200:
             response = ss.Sheets.update_rows(dest_sheet.id, permalinks)
             responses.append(response)
             permalinks.clear()
@@ -191,28 +201,99 @@ def process_src_sheet(src_sheet, columns, statuses, responses, permalinks):
 
         # Update the status and permalinks if any
         if permalinks:
+            logger.info(f"Permalinks to update: {permalinks}")
             response = ss.Sheets.update_rows(dest_sheet.id, permalinks)
+            logger.info(f"Update response: {response}")
             responses.append(response)
             permalinks.clear()
             update_status(src_row_id, status, columns)
         statuses = []
 
 def process_dest_rows(dest_sheet, dest_columns, perm_sheet_id_value, target_column_value, statuses, responses, permalinks, src_row_id):
-    for dest_row in dest_sheet.rows: 
+    # Gather all sheet IDs from the perm_sheet_id_value column
+    sheet_ids = [
+        cell.display_value for dest_row in dest_sheet.rows
+        for cell in dest_row.cells if cell.column_id == dest_columns[perm_sheet_id_value] and cell.display_value
+    ]
+
+    # Fetch all permalinks in one call
+    sheet_dict = get_sheet_dict(sheet_ids)
+    logger.info(f"Sheet Dictionary: {sheet_dict}")
+
+    for dest_row in dest_sheet.rows:
         try:
             perm_src_sheet_id = next((cell.display_value for cell in dest_row.cells if cell.column_id == dest_columns[perm_sheet_id_value]), None)
-            print(f"Permalink Source Sheet ID: {perm_src_sheet_id}")
-            if perm_src_sheet_id == None:
+            logger.info(f"Permalink Source Sheet ID: {perm_src_sheet_id}")
+            if perm_src_sheet_id is None:
                 continue
 
-            # dest_row_id = dest_row.id
-            # perm_src_sheet = get_sheet_or_report(perm_src_sheet_id)
-            process_permalink(perm_src_sheet_id, dest_sheet, dest_columns, dest_row, target_column_value, permalinks, responses, statuses)
-        except KeyError:
+            permalink = sheet_dict.get(perm_src_sheet_id, None)
+            if permalink is None:
+                permalink = ""
+                status = "Error Processing"
+                statuses.append(status)
+                update_row(dest_sheet=dest_sheet, row_values={target_column_value: permalink}, dest_sheet_map=dest_columns, row_id=dest_row.id)
+            else:
+                status = "Done"
+                statuses.append(status)
+                logger.info(f"Permalink: {permalink}")
+
+                # Avoid duplicate rows
+                existing_row_ids = {row.id for row in permalinks}
+                if dest_row.id not in existing_row_ids:
+                    update_permalinks(dest_sheet=dest_sheet, dest_columns=dest_columns, permalinks=permalinks, responses=responses, permalink=permalink, dest_row=dest_row, target_column_value=target_column_value)
+        except KeyError as e:
+            logger.error(f"KeyError: {e}")
+            continue
+        except Exception as e:
+            logger.error(f"Error processing destination row: {e}")
             continue
 
-        except:
-            continue
+# def process_dest_rows(dest_sheet, dest_columns, perm_sheet_id_value, target_column_value, statuses, responses, permalinks, src_row_id):
+#     # sheet_dict.clear()
+#     sheet_ids = [
+#         cell.display_value for dest_row in dest_sheet.rows
+#         for cell in dest_row.cells if cell.column_id == dest_columns[perm_sheet_id_value] and cell.display_value
+#     ]
+
+#     # Fetch all permalinks in one call
+#     sheet_dict = get_sheet_dict(sheet_ids)
+#     logger.info(f"Sheet Dictionary: {sheet_dict}")
+
+#     for dest_row in dest_sheet.rows: 
+#         try:
+#             perm_src_sheet_id = next((cell.display_value for cell in dest_row.cells if cell.column_id == dest_columns[perm_sheet_id_value]), None)
+#             print(f"Permalink Source Sheet ID: {perm_src_sheet_id}")
+#             if perm_src_sheet_id == None:
+#                 continue
+
+#             permalink = sheet_dict[perm_src_sheet_id]
+#             if permalink is None:
+#                 permalink = ""
+#                 status = "Error Processing"
+#                 statuses.append(status)
+#                 update_row(dest_sheet=dest_sheet, row_values={target_column_value: ""}, dest_sheet_map=dest_columns, row_id=dest_row.id)
+#             else:
+#                 status = "Done"
+#                 statuses.append(status)
+#                 print(f"Permalink: {permalink}")
+#                 update_permalinks(dest_sheet=dest_sheet, dest_columns=dest_columns, permalinks=permalinks, responses=responses, permalink=permalink, dest_row=dest_row, target_column_value=target_column_value)
+#             # dest_row_id = dest_row.id
+#             # perm_src_sheet = get_sheet_or_report(perm_src_sheet_id)
+#             # process_permalink(perm_src_sheet_id, dest_sheet, dest_columns, dest_row, target_column_value, permalinks, responses, statuses)
+#                 permalink_row = ss.models.Row()
+#                 permalink_row.id = dest_row.id
+#                 cell = ss.models.Cell()
+#                 cell.column_id = dest_columns[target_column_value]
+#                 cell.value = permalink
+#                 cell.strict = False
+#                 permalink_row.cells.append(cell)
+#                 permalinks.append(permalink_row)
+#         except KeyError:
+#             continue
+#         except Exception as e:
+#             logger.error(f"Error processing destination row: {e}")
+#             continue
             
 def update_rows(sheet_id):
     columns = get_src_sheet_columns(ss, sheet_id)

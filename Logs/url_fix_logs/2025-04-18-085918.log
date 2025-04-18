@@ -1,0 +1,62 @@
+2025-04-18 08:59:18,283 - INFO - Script started.
+2025-04-18 08:59:19,404 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-04-18 08:59:19,801 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-04-18 08:59:20,126 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/6375545637916548"}}
+2025-04-18 08:59:20,472 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8286888007782276"}}
+2025-04-18 08:59:20,816 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8286888007782276"}}
+2025-04-18 08:59:21,112 - ERROR - ImportError! Could not load api or model class __iter__
+2025-04-18 08:59:33,632 - ERROR - Error retrieving data from SQL table: ('22003', '[22003] [Microsoft][SQL Server Native Client 11.0][SQL Server]Arithmetic overflow error converting nvarchar to data type numeric. (8115) (SQLExecDirectW)')
+2025-04-18 08:59:33,633 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,634 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,634 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,635 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,635 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,635 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,636 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,636 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,636 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,637 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,637 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,637 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,638 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,638 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,638 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,639 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,639 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,639 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,640 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,640 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,640 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,640 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,641 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,641 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,641 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,642 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,642 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,642 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,643 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,643 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,643 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,644 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,644 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,644 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,645 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,645 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,645 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,646 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,646 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,646 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,647 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,647 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,647 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,648 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,648 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,648 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,649 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,649 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,649 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:33,650 - ERROR - Error processing destination row: 'NoneType' object is not subscriptable
+2025-04-18 08:59:34,056 - INFO - {"request": {"command": "PUT https://api.smartsheet.com/2.0/sheets/6375545637916548/rows"}}
+2025-04-18 08:59:34,345 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8286888007782276"}}
+2025-04-18 08:59:34,697 - INFO - {"request": {"command": "GET https://api.smartsheet.com/2.0/sheets/8286888007782276"}}
+2025-04-18 08:59:34,759 - ERROR - ImportError! Could not load api or model class __iter__
